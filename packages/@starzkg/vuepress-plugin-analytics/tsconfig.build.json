@@ -1,0 +1,20 @@
+{
+  "extends": "../../../tsconfig.base.json",
+  "references": [
+    {
+      "path": "../vuepress-plugin-google-analytics/tsconfig.build.json"
+    },
+    {
+      "path": "../vuepress-plugin-baidu-analytics/tsconfig.build.json"
+    },
+    {
+      "path": "../vuepress-plugin-cnzz-analytics/tsconfig.build.json"
+    }
+  ],
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./lib",
+    "types": ["@vuepress/client/types"]
+  },
+  "include": ["./src"]
+}

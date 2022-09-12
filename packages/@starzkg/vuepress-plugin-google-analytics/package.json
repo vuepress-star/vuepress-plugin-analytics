@@ -1,0 +1,50 @@
+{
+  "name": "@starzkg/vuepress-plugin-google-analytics",
+  "version": "1.0.0-beta.27",
+  "description": "VuePress plugin - google-analytics",
+  "keywords": [
+    "vuepress-plugin",
+    "vuepress",
+    "plugin",
+    "google",
+    "analytics"
+  ],
+  "homepage": "https://vuepress-star.shentuzhigang.cn",
+  "bugs": {
+    "url": "https://github.com/vuepress-star/vuepress-plugin-analytics/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vuepress-star/vuepress-plugin-analytics.git",
+    "directory": "packages/@starzkg/vuepress-plugin-google-analytics"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Starzkg",
+    "email": "shentuzhigang@shentuzhigang.cn",
+    "url": "https://shentuzhigang.cn"
+  },
+  "type": "module",
+  "exports": {
+    ".": "./lib/node/index.js",
+    "./client": "./lib/client/index.js",
+    "./package.json": "./package.json"
+  },
+  "main": "./lib/node/index.js",
+  "types": "./lib/node/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc -b tsconfig.build.json",
+    "clean": "rimraf lib *.tsbuildinfo"
+  },
+  "dependencies": {
+    "@vuepress/client": "2.0.0-beta.50",
+    "@vuepress/core": "2.0.0-beta.50",
+    "@vuepress/utils": "2.0.0-beta.50"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "extends": "./tsconfig.base.json",
+  "references": [
+    {
+      "path": "./packages/@starzkg/vuepress-plugin-analytics/tsconfig.build.json"
+    },
+    {
+      "path": "./packages/@starzkg/vuepress-plugin-google-analytics/tsconfig.build.json"
+    },
+    {
+      "path": "./packages/@starzkg/vuepress-plugin-baidu-analytics/tsconfig.build.json"
+    },
+    {
+      "path": "./packages/@starzkg/vuepress-plugin-cnzz-analytics/tsconfig.build.json"
+    }
+  ],
+  "files": []
+}

@@ -1,0 +1,102 @@
+export default {
+  '/zh/guide/': [
+    {
+      text: '指南',
+      link: '/zh/guide/README.md',
+      children: [
+        '/zh/guide/getting-started.md',
+        '/zh/guide/configuration.md',
+        '/zh/guide/page.md',
+        '/zh/guide/assets.md',
+        '/zh/guide/i18n.md',
+        '/zh/guide/accessibility.md',
+        '/zh/guide/deployment.md',
+        '/zh/guide/theme.md',
+        '/zh/guide/plugin.md',
+        '/zh/guide/bundler.md',
+      ],
+    },
+    {
+      text: 'MarkDown',
+      link: '/zh/guide/markdown/',
+      children: [
+        '/zh/guide/markdown/configuration.md',
+        {
+          text: '特性',
+          link: '/zh/guide/markdown/feature/',
+          children: [
+            '/zh/guide/markdown/feature/align.md',
+            '/zh/guide/markdown/feature/sup-sub.md',
+            '/zh/guide/markdown/feature/footnote.md',
+            '/zh/guide/markdown/feature/mark.md',
+            '/zh/guide/markdown/feature/task-list.md',
+            '/zh/guide/markdown/feature/tex.md',
+            '/zh/guide/markdown/feature/flowchart.md',
+            '/zh/guide/markdown/feature/mermaid.md',
+            '/zh/guide/markdown/feature/code-demo/',
+            '/zh/guide/markdown/feature/presentation/',
+            '/zh/guide/markdown/feature/external.md',
+          ],
+        },
+      ],
+    },
+    {
+      text: '组件',
+      link: '/zh/guide/component/',
+      children: [
+        '/zh/guide/component/badge.md',
+        '/zh/guide/component/code-group.md',
+        '/zh/guide/component/icon.md',
+        '/zh/guide/component/external-link.md',
+        '/zh/guide/component/element-plus.md',
+      ],
+    },
+    {
+      text: '布局',
+      link: '/zh/guide/layout/',
+      children: [
+        '/zh/guide/layout/navbar.md',
+        '/zh/guide/layout/sidebar.md',
+        '/zh/guide/layout/home.md',
+        '/zh/guide/layout/page.md',
+        '/zh/guide/layout/custom.md',
+      ],
+    },
+    {
+      text: '页面',
+      link: '/zh/guide/page/',
+      children: [
+        '/zh/guide/page/home.md',
+        '/zh/guide/page/normal.md',
+        '/zh/guide/page/document.md',
+        '/zh/guide/page/spreadsheet.md',
+        '/zh/guide/page/presentation.md',
+        '/zh/guide/page/blog.md',
+        '/zh/guide/page/wiki.md',
+      ],
+    },
+    {
+      text: '功能',
+      link: '/zh/guide/feature/',
+      children: [
+        '/zh/guide/feature/page-enhance.md',
+        '/zh/guide/feature/copy-code.md',
+        '/zh/guide/feature/photo-swipe.md',
+        '/zh/guide/feature/copyright.md',
+        '/zh/guide/feature/git.md',
+        '/zh/guide/feature/encrypt.md',
+        '/zh/guide/feature/pwa.md',
+        '/zh/guide/feature/feed.md',
+        '/zh/guide/feature/seo.md',
+        '/zh/guide/feature/sitemap.md',
+        '/zh/guide/feature/typescript.md',
+      ],
+    },
+  ],
+  '/zh/docs/': [
+    {
+      text: 'Get Started',
+      children: ['/zh/guide/README.md', '/zh/guide/getting-started.md'],
+    },
+  ],
+}
