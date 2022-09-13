@@ -14,6 +14,12 @@
       "path": "../vuepress-plugin-cnzz-analytics/tsconfig.build.json"
     },
     {
+      "path": "../vuepress-plugin-micro-analytics/tsconfig.build.json"
+    },
+    {
+      "path": "../vuepress-plugin-simple-analytics/tsconfig.build.json"
+    },
+    {
       "path": "../vuepress-plugin-plausible-analytics/tsconfig.build.json"
     }
   ],

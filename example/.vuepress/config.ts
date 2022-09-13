@@ -5,6 +5,7 @@ import { cnzzAnalyticsPlugin } from '@starzkg/vuepress-plugin-cnzz-analytics'
 import { googleAnalyticsPlugin } from '@starzkg/vuepress-plugin-google-analytics'
 import { microAnalyticsPlugin } from '@starzkg/vuepress-plugin-micro-analytics'
 import { plausibleAnalyticsPlugin } from '@starzkg/vuepress-plugin-plausible-analytics'
+import { simpleAnalyticsPlugin } from '@starzkg/vuepress-plugin-simple-analytics'
 import { viteBundler } from '@vuepress/bundler-vite'
 import { webpackBundler } from '@vuepress/bundler-webpack'
 import { defineUserConfig } from '@vuepress/cli'
@@ -191,6 +192,7 @@ var _hmt = _hmt || [];
     microAnalyticsPlugin({
       id: 'ZwSg9rf6GA',
     }),
+    simpleAnalyticsPlugin({}),
     plausibleAnalyticsPlugin({
       domain: 'shentuzhigang.cn',
     }),

@@ -8,6 +8,8 @@ import type { MicroAnalyticsPluginOptions } from '@starzkg/vuepress-plugin-micro
 import { microAnalyticsPlugin } from '@starzkg/vuepress-plugin-micro-analytics'
 import type { PlausibleAnalyticsPluginOptions } from '@starzkg/vuepress-plugin-plausible-analytics'
 import { plausibleAnalyticsPlugin } from '@starzkg/vuepress-plugin-plausible-analytics'
+import { simpleAnalyticsPlugin } from '@starzkg/vuepress-plugin-simple-analytics'
+import type { SimpleAnalyticsPluginOptions } from '@starzkg/vuepress-plugin-simple-analytics'
 import type { Plugin, PluginObject } from '@vuepress/core'
 import { getDirname, path } from '@vuepress/utils'
 
@@ -38,6 +40,11 @@ export interface AnalyticsPluginOptions {
    * Options for @starzkg/vuepress-plugin-micro-analytics
    */
   micro?: MicroAnalyticsPluginOptions
+
+  /**
+   * Options for @starzkg/vuepress-plugin-simple-analytics
+   */
+  simple?: SimpleAnalyticsPluginOptions
 
   /**
    * Options for @starzkg/vuepress-plugin-plausible-analytics
@@ -78,6 +85,10 @@ export const analyticsPlugin =
 
     if (options.micro) {
       app.use(microAnalyticsPlugin(options.micro))
+    }
+
+    if (options.simple) {
+      app.use(simpleAnalyticsPlugin(options.simple))
     }
 
     if (options.plausible) {

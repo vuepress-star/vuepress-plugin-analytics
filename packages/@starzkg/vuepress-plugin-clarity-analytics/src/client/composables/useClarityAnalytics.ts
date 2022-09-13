@@ -1,10 +1,12 @@
 declare const dataLayer: any[]
 declare const clarityTag: (...args: any[]) => void
+declare const clarity: any
 
 declare global {
   interface Window {
     dataLayer?: typeof dataLayer
     clarityTag?: typeof clarityTag
+    clarity?: typeof clarity
   }
 }
 
@@ -36,4 +38,11 @@ export const useClarityAnalytics = (id: string): void => {
 
   clarityTag('js', new Date())
   clarityTag('config', id)
+
+  window.clarity =
+    window.clarity ||
+    function () {
+      // eslint-disable-next-line prefer-rest-params
+      ;(window.clarity.q = window.clarity.q || []).push(arguments)
+    }
 }

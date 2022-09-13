@@ -111,6 +111,7 @@ importers:
       '@starzkg/vuepress-plugin-google-analytics': workspace:*
       '@starzkg/vuepress-plugin-micro-analytics': workspace:*
       '@starzkg/vuepress-plugin-plausible-analytics': workspace:*
+      '@starzkg/vuepress-plugin-simple-analytics': workspace:*
       '@vuepress/bundler-vite': 2.0.0-beta.50
       '@vuepress/bundler-webpack': 2.0.0-beta.50
       '@vuepress/cli': 2.0.0-beta.50
@@ -133,6 +134,7 @@ importers:
       '@starzkg/vuepress-plugin-google-analytics': link:../../packages/@starzkg/vuepress-plugin-google-analytics
       '@starzkg/vuepress-plugin-micro-analytics': link:../../packages/@starzkg/vuepress-plugin-micro-analytics
       '@starzkg/vuepress-plugin-plausible-analytics': link:../../packages/@starzkg/vuepress-plugin-plausible-analytics
+      '@starzkg/vuepress-plugin-simple-analytics': link:../../packages/@starzkg/vuepress-plugin-simple-analytics
       '@vuepress/bundler-vite': 2.0.0-beta.50
       '@vuepress/bundler-webpack': 2.0.0-beta.50
       '@vuepress/cli': 2.0.0-beta.50
@@ -156,6 +158,7 @@ importers:
       '@starzkg/vuepress-plugin-google-analytics': workspace:*
       '@starzkg/vuepress-plugin-micro-analytics': workspace:*
       '@starzkg/vuepress-plugin-plausible-analytics': workspace:*
+      '@starzkg/vuepress-plugin-simple-analytics': workspace:*
       '@vuepress/client': 2.0.0-beta.50
       '@vuepress/core': 2.0.0-beta.50
       '@vuepress/utils': 2.0.0-beta.50
@@ -166,6 +169,7 @@ importers:
       '@starzkg/vuepress-plugin-google-analytics': link:../vuepress-plugin-google-analytics
       '@starzkg/vuepress-plugin-micro-analytics': link:../vuepress-plugin-micro-analytics
       '@starzkg/vuepress-plugin-plausible-analytics': link:../vuepress-plugin-plausible-analytics
+      '@starzkg/vuepress-plugin-simple-analytics': link:../vuepress-plugin-simple-analytics
       '@vuepress/client': 2.0.0-beta.50
       '@vuepress/core': 2.0.0-beta.50
       '@vuepress/utils': 2.0.0-beta.50
@@ -221,6 +225,16 @@ importers:
       '@vuepress/utils': 2.0.0-beta.50
 
   packages/@starzkg/vuepress-plugin-plausible-analytics:
+    specifiers:
+      '@vuepress/client': 2.0.0-beta.50
+      '@vuepress/core': 2.0.0-beta.50
+      '@vuepress/utils': 2.0.0-beta.50
+    dependencies:
+      '@vuepress/client': 2.0.0-beta.50
+      '@vuepress/core': 2.0.0-beta.50
+      '@vuepress/utils': 2.0.0-beta.50
+
+  packages/@starzkg/vuepress-plugin-simple-analytics:
     specifiers:
       '@vuepress/client': 2.0.0-beta.50
       '@vuepress/core': 2.0.0-beta.50
