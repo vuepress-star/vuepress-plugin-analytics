@@ -28,6 +28,7 @@ export const useGoogleAnalytics = (id: string): void => {
 
   // insert gtag `<script>` tag
   const gtagScript = document.createElement('script')
+  gtagScript.id = 'google-analytics'
   gtagScript.src = `https://www.googletagmanager.com/gtag/js?id=${id}`
   gtagScript.async = true
   document.head.appendChild(gtagScript)

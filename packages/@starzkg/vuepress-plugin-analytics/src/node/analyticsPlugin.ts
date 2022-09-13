@@ -1,8 +1,11 @@
 import type { BaiduAnalyticsPluginOptions } from '@starzkg/vuepress-plugin-baidu-analytics'
 import type { ClarityAnalyticsPluginOptions } from '@starzkg/vuepress-plugin-clarity-analytics'
+import { clarityAnalyticsPlugin } from '@starzkg/vuepress-plugin-clarity-analytics'
 import type { CnzzAnalyticsPluginOptions } from '@starzkg/vuepress-plugin-cnzz-analytics'
 import type { GoogleAnalyticsPluginOptions } from '@starzkg/vuepress-plugin-google-analytics'
 import { googleAnalyticsPlugin } from '@starzkg/vuepress-plugin-google-analytics'
+import type { PlausibleAnalyticsPluginOptions } from '@starzkg/vuepress-plugin-plausible-analytics'
+import { plausibleAnalyticsPlugin } from '@starzkg/vuepress-plugin-plausible-analytics'
 import type { Plugin, PluginObject } from '@vuepress/core'
 import { getDirname, path } from '@vuepress/utils'
 
@@ -30,6 +33,10 @@ export interface AnalyticsPluginOptions {
   cnzz?: CnzzAnalyticsPluginOptions
 
   /**
+   * Options for @starzkg/vuepress-plugin-plausible-analytics
+   */
+  plausible?: PlausibleAnalyticsPluginOptions
+  /**
    * Options for Custom
    */
   custom?: string
@@ -50,12 +57,24 @@ export const analyticsPlugin =
       app.use(googleAnalyticsPlugin(options.google))
     }
 
+    if (options.clarity) {
+      app.use(clarityAnalyticsPlugin(options.clarity))
+    }
+
     if (options.baidu) {
       app.use(googleAnalyticsPlugin(options.baidu))
     }
 
     if (options.cnzz) {
       app.use(googleAnalyticsPlugin(options.cnzz))
+    }
+
+    if (options.plausible) {
+      app.use(plausibleAnalyticsPlugin(options.plausible))
+    }
+
+    if (!options.custom) {
+      return
     }
 
     return {

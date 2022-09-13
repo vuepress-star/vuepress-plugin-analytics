@@ -3,6 +3,7 @@ import { baiduAnalyticsPlugin } from '@starzkg/vuepress-plugin-baidu-analytics'
 import { clarityAnalyticsPlugin } from '@starzkg/vuepress-plugin-clarity-analytics'
 import { cnzzAnalyticsPlugin } from '@starzkg/vuepress-plugin-cnzz-analytics'
 import { googleAnalyticsPlugin } from '@starzkg/vuepress-plugin-google-analytics'
+import { plausibleAnalyticsPlugin } from '@starzkg/vuepress-plugin-plausible-analytics'
 import { viteBundler } from '@vuepress/bundler-vite'
 import { webpackBundler } from '@vuepress/bundler-webpack'
 import { defineUserConfig } from '@vuepress/cli'
@@ -187,6 +188,9 @@ var _hmt = _hmt || [];
       id: process.env.DOCS_CNZZ_ID ?? '',
       webId: process.env.DOCS_CNZZ_WEB_ID ?? '',
       spa: true,
+    }),
+    plausibleAnalyticsPlugin({
+      domain: 'shentuzhigang.cn',
     }),
     registerComponentsPlugin({
       componentsDir: path.resolve(__dirname, './components'),
