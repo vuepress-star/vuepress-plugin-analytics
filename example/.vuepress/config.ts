@@ -3,6 +3,7 @@ import { baiduAnalyticsPlugin } from '@starzkg/vuepress-plugin-baidu-analytics'
 import { clarityAnalyticsPlugin } from '@starzkg/vuepress-plugin-clarity-analytics'
 import { cnzzAnalyticsPlugin } from '@starzkg/vuepress-plugin-cnzz-analytics'
 import { googleAnalyticsPlugin } from '@starzkg/vuepress-plugin-google-analytics'
+import { microAnalyticsPlugin } from '@starzkg/vuepress-plugin-micro-analytics'
 import { plausibleAnalyticsPlugin } from '@starzkg/vuepress-plugin-plausible-analytics'
 import { viteBundler } from '@vuepress/bundler-vite'
 import { webpackBundler } from '@vuepress/bundler-webpack'
@@ -173,21 +174,22 @@ var _hmt = _hmt || [];
     }),
     googleAnalyticsPlugin({
       // we have multiple deployments, which would use different id
-      id: process.env.DOCS_GA_ID ?? '',
+      id: 'G-CTB8FQ7VMW',
     }),
     clarityAnalyticsPlugin({
-      // we have multiple deployments, which would use different id
-      id: process.env.CLARITY_ID ?? '',
+      id: 'dmtvg74hwr',
     }),
     baiduAnalyticsPlugin({
-      // we have multiple deployments, which would use different id
-      id: process.env.DOCS_GA_ID ?? '',
+      id: '2bec8aabb0629582fd66244ae851f3a1',
       spa: true,
     }),
     cnzzAnalyticsPlugin({
-      id: process.env.DOCS_CNZZ_ID ?? '',
-      webId: process.env.DOCS_CNZZ_WEB_ID ?? '',
+      id: '1280714941',
+      webId: '1280714941',
       spa: true,
+    }),
+    microAnalyticsPlugin({
+      id: 'ZwSg9rf6GA',
     }),
     plausibleAnalyticsPlugin({
       domain: 'shentuzhigang.cn',

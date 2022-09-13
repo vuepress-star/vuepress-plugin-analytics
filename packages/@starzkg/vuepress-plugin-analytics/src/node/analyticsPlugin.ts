@@ -4,6 +4,8 @@ import { clarityAnalyticsPlugin } from '@starzkg/vuepress-plugin-clarity-analyti
 import type { CnzzAnalyticsPluginOptions } from '@starzkg/vuepress-plugin-cnzz-analytics'
 import type { GoogleAnalyticsPluginOptions } from '@starzkg/vuepress-plugin-google-analytics'
 import { googleAnalyticsPlugin } from '@starzkg/vuepress-plugin-google-analytics'
+import type { MicroAnalyticsPluginOptions } from '@starzkg/vuepress-plugin-micro-analytics'
+import { microAnalyticsPlugin } from '@starzkg/vuepress-plugin-micro-analytics'
 import type { PlausibleAnalyticsPluginOptions } from '@starzkg/vuepress-plugin-plausible-analytics'
 import { plausibleAnalyticsPlugin } from '@starzkg/vuepress-plugin-plausible-analytics'
 import type { Plugin, PluginObject } from '@vuepress/core'
@@ -31,6 +33,11 @@ export interface AnalyticsPluginOptions {
    * Options for @starzkg/vuepress-plugin-cnzz-analytics
    */
   cnzz?: CnzzAnalyticsPluginOptions
+
+  /**
+   * Options for @starzkg/vuepress-plugin-micro-analytics
+   */
+  micro?: MicroAnalyticsPluginOptions
 
   /**
    * Options for @starzkg/vuepress-plugin-plausible-analytics
@@ -67,6 +74,10 @@ export const analyticsPlugin =
 
     if (options.cnzz) {
       app.use(googleAnalyticsPlugin(options.cnzz))
+    }
+
+    if (options.micro) {
+      app.use(microAnalyticsPlugin(options.micro))
     }
 
     if (options.plausible) {

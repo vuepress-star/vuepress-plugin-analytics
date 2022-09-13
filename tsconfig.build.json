@@ -17,6 +17,9 @@
       "path": "./packages/@starzkg/vuepress-plugin-cnzz-analytics/tsconfig.build.json"
     },
     {
+      "path": "./packages/@starzkg/vuepress-plugin-micro-analytics/tsconfig.build.json"
+    },
+    {
       "path": "./packages/@starzkg/vuepress-plugin-plausible-analytics/tsconfig.build.json"
     }
   ],

@@ -109,6 +109,7 @@ importers:
       '@starzkg/vuepress-plugin-clarity-analytics': workspace:*
       '@starzkg/vuepress-plugin-cnzz-analytics': workspace:*
       '@starzkg/vuepress-plugin-google-analytics': workspace:*
+      '@starzkg/vuepress-plugin-micro-analytics': workspace:*
       '@starzkg/vuepress-plugin-plausible-analytics': workspace:*
       '@vuepress/bundler-vite': 2.0.0-beta.50
       '@vuepress/bundler-webpack': 2.0.0-beta.50
@@ -130,6 +131,7 @@ importers:
       '@starzkg/vuepress-plugin-clarity-analytics': link:../../packages/@starzkg/vuepress-plugin-clarity-analytics
       '@starzkg/vuepress-plugin-cnzz-analytics': link:../../packages/@starzkg/vuepress-plugin-cnzz-analytics
       '@starzkg/vuepress-plugin-google-analytics': link:../../packages/@starzkg/vuepress-plugin-google-analytics
+      '@starzkg/vuepress-plugin-micro-analytics': link:../../packages/@starzkg/vuepress-plugin-micro-analytics
       '@starzkg/vuepress-plugin-plausible-analytics': link:../../packages/@starzkg/vuepress-plugin-plausible-analytics
       '@vuepress/bundler-vite': 2.0.0-beta.50
       '@vuepress/bundler-webpack': 2.0.0-beta.50
@@ -152,6 +154,7 @@ importers:
       '@starzkg/vuepress-plugin-clarity-analytics': workspace:*
       '@starzkg/vuepress-plugin-cnzz-analytics': workspace:*
       '@starzkg/vuepress-plugin-google-analytics': workspace:*
+      '@starzkg/vuepress-plugin-micro-analytics': workspace:*
       '@starzkg/vuepress-plugin-plausible-analytics': workspace:*
       '@vuepress/client': 2.0.0-beta.50
       '@vuepress/core': 2.0.0-beta.50
@@ -161,6 +164,7 @@ importers:
       '@starzkg/vuepress-plugin-clarity-analytics': link:../vuepress-plugin-clarity-analytics
       '@starzkg/vuepress-plugin-cnzz-analytics': link:../vuepress-plugin-cnzz-analytics
       '@starzkg/vuepress-plugin-google-analytics': link:../vuepress-plugin-google-analytics
+      '@starzkg/vuepress-plugin-micro-analytics': link:../vuepress-plugin-micro-analytics
       '@starzkg/vuepress-plugin-plausible-analytics': link:../vuepress-plugin-plausible-analytics
       '@vuepress/client': 2.0.0-beta.50
       '@vuepress/core': 2.0.0-beta.50
@@ -197,6 +201,16 @@ importers:
       '@vuepress/utils': 2.0.0-beta.50
 
   packages/@starzkg/vuepress-plugin-google-analytics:
+    specifiers:
+      '@vuepress/client': 2.0.0-beta.50
+      '@vuepress/core': 2.0.0-beta.50
+      '@vuepress/utils': 2.0.0-beta.50
+    dependencies:
+      '@vuepress/client': 2.0.0-beta.50
+      '@vuepress/core': 2.0.0-beta.50
+      '@vuepress/utils': 2.0.0-beta.50
+
+  packages/@starzkg/vuepress-plugin-micro-analytics:
     specifiers:
       '@vuepress/client': 2.0.0-beta.50
       '@vuepress/core': 2.0.0-beta.50

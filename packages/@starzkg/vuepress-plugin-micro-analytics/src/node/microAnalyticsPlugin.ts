@@ -4,31 +4,31 @@ import { getDirname, logger, path } from '@vuepress/utils'
 const __dirname = getDirname(import.meta.url)
 
 /**
- * Options for @starzkg/vuepress-plugin-plausible-analytics
+ * Options for @starzkg/vuepress-plugin-micro-analytics
  */
-export interface PlausibleAnalyticsPluginOptions {
+export interface MicroAnalyticsPluginOptions {
   /**
    * The host .
    */
   host?: string
   /**
-   * The site domain .
+   * The MicroAnalytics ID .
    */
-  domain: string
+  id: string
 }
 
-export const plausibleAnalyticsPlugin =
+export const microAnalyticsPlugin =
   ({
-    host = 'https://plausible.io',
-    domain,
-  }: PlausibleAnalyticsPluginOptions): Plugin =>
+    host = 'https://microanalytics.io',
+    id,
+  }: MicroAnalyticsPluginOptions): Plugin =>
   (app) => {
     const plugin: PluginObject = {
-      name: '@starzkg/vuepress-plugin-plausible-analytics',
+      name: '@starzkg/vuepress-plugin-micro-analytics',
     }
 
-    if (!domain) {
-      logger.warn(`[${plugin.name}] 'domain' is required`)
+    if (!id) {
+      logger.warn(`[${plugin.name}] 'id' is required`)
       return plugin
     }
 
@@ -43,15 +43,15 @@ export const plausibleAnalyticsPlugin =
 
       alias: {
         // workaround for https://github.com/vitejs/vite/issues/7621
-        '@vuepress/plugin-plausible-analytics/client': path.resolve(
+        '@vuepress/plugin-micro-analytics/client': path.resolve(
           __dirname,
           '../client/index.js'
         ),
       },
 
       define: {
-        __PLAUSIBLE_HOST__: host,
-        __PLAUSIBLE_DOMAIN__: domain,
+        __MICRO_HOST__: host,
+        __MICRO_ID__: id,
       },
     }
   }
