@@ -1,4 +1,5 @@
 import type { BaiduAnalyticsPluginOptions } from '@starzkg/vuepress-plugin-baidu-analytics'
+import type { ClarityAnalyticsPluginOptions } from '@starzkg/vuepress-plugin-clarity-analytics'
 import type { CnzzAnalyticsPluginOptions } from '@starzkg/vuepress-plugin-cnzz-analytics'
 import type { GoogleAnalyticsPluginOptions } from '@starzkg/vuepress-plugin-google-analytics'
 import { googleAnalyticsPlugin } from '@starzkg/vuepress-plugin-google-analytics'
@@ -12,6 +13,11 @@ export interface AnalyticsPluginOptions {
    * Options for @starzkg/vuepress-plugin-google-analytics
    */
   google?: GoogleAnalyticsPluginOptions
+
+  /**
+   * Options for @starzkg/vuepress-plugin-clarity-analytics
+   */
+  clarity?: ClarityAnalyticsPluginOptions
 
   /**
    * Options for @starzkg/vuepress-plugin-baidu-analytics

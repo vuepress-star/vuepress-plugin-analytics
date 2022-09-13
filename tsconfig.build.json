@@ -8,6 +8,9 @@
       "path": "./packages/@starzkg/vuepress-plugin-google-analytics/tsconfig.build.json"
     },
     {
+      "path": "./packages/@starzkg/vuepress-plugin-clarity-analytics/tsconfig.build.json"
+    },
+    {
       "path": "./packages/@starzkg/vuepress-plugin-baidu-analytics/tsconfig.build.json"
     },
     {

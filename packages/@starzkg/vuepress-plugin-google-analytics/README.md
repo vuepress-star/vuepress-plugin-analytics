@@ -11,4 +11,4 @@
 
 [![Version](https://img.shields.io/npm/v/@starzkg/vuepress-plugin-google-analytics.svg?style=flat-square&logo=npm) ![Downloads](https://img.shields.io/npm/dm/@starzkg/vuepress-plugin-google-analytics.svg?style=flat-square&logo=npm) ![Size](https://img.shields.io/bundlephobia/min/@starzkg/vuepress-plugin-google-analytics?style=flat-square&logo=npm)](https://www.npmjs.com/package/@starzkg/vuepress-plugin-google-analytics)
 
-VuePress Baidu Analytics Plugin 📄 / VuePress 谷歌统计插件 📄
+VuePress Google Analytics Plugin 📄 / VuePress 谷歌统计插件 📄

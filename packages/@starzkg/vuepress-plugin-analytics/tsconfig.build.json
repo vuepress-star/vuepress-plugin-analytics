@@ -5,6 +5,9 @@
       "path": "../vuepress-plugin-google-analytics/tsconfig.build.json"
     },
     {
+      "path": "../vuepress-plugin-clarity-analytics/tsconfig.build.json"
+    },
+    {
       "path": "../vuepress-plugin-baidu-analytics/tsconfig.build.json"
     },
     {

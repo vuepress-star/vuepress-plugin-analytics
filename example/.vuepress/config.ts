@@ -1,5 +1,6 @@
 import { analyticsPlugin } from '@starzkg/vuepress-plugin-analytics'
 import { baiduAnalyticsPlugin } from '@starzkg/vuepress-plugin-baidu-analytics'
+import { clarityAnalyticsPlugin } from '@starzkg/vuepress-plugin-clarity-analytics'
 import { cnzzAnalyticsPlugin } from '@starzkg/vuepress-plugin-cnzz-analytics'
 import { googleAnalyticsPlugin } from '@starzkg/vuepress-plugin-google-analytics'
 import { viteBundler } from '@vuepress/bundler-vite'
@@ -172,6 +173,10 @@ var _hmt = _hmt || [];
     googleAnalyticsPlugin({
       // we have multiple deployments, which would use different id
       id: process.env.DOCS_GA_ID ?? '',
+    }),
+    clarityAnalyticsPlugin({
+      // we have multiple deployments, which would use different id
+      id: process.env.CLARITY_ID ?? '',
     }),
     baiduAnalyticsPlugin({
       // we have multiple deployments, which would use different id
