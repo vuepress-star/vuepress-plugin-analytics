@@ -8,6 +8,8 @@ import type { GoogleAnalyticsPluginOptions } from '@starzkg/vuepress-plugin-goog
 import { googleAnalyticsPlugin } from '@starzkg/vuepress-plugin-google-analytics'
 import type { MicroAnalyticsPluginOptions } from '@starzkg/vuepress-plugin-micro-analytics'
 import { microAnalyticsPlugin } from '@starzkg/vuepress-plugin-micro-analytics'
+import type { PanelbearAnalyticsPluginOptions } from '@starzkg/vuepress-plugin-panelbear-analytics'
+import { panelbearAnalyticsPlugin } from '@starzkg/vuepress-plugin-panelbear-analytics'
 import type { PlausibleAnalyticsPluginOptions } from '@starzkg/vuepress-plugin-plausible-analytics'
 import { plausibleAnalyticsPlugin } from '@starzkg/vuepress-plugin-plausible-analytics'
 import { simpleAnalyticsPlugin } from '@starzkg/vuepress-plugin-simple-analytics'
@@ -57,6 +59,12 @@ export interface AnalyticsPluginOptions {
    * Options for @starzkg/vuepress-plugin-plausible-analytics
    */
   plausible?: PlausibleAnalyticsPluginOptions
+
+  /**
+   * Options for @starzkg/vuepress-plugin-plausible-analytics
+   */
+  panelbear?: PanelbearAnalyticsPluginOptions
+
   /**
    * Options for Custom
    */
@@ -104,6 +112,10 @@ export const analyticsPlugin =
 
     if (options.plausible) {
       app.use(plausibleAnalyticsPlugin(options.plausible))
+    }
+
+    if (options.panelbear) {
+      app.use(panelbearAnalyticsPlugin(options.panelbear))
     }
 
     if (!options.custom) {

@@ -24,6 +24,9 @@
     },
     {
       "path": "../vuepress-plugin-plausible-analytics/tsconfig.build.json"
+    },
+    {
+      "path": "../vuepress-plugin-panelbear-analytics/tsconfig.build.json"
     }
   ],
   "compilerOptions": {

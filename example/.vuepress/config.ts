@@ -4,6 +4,7 @@ import { clarityAnalyticsPlugin } from '@starzkg/vuepress-plugin-clarity-analyti
 import { cnzzAnalyticsPlugin } from '@starzkg/vuepress-plugin-cnzz-analytics'
 import { googleAnalyticsPlugin } from '@starzkg/vuepress-plugin-google-analytics'
 import { microAnalyticsPlugin } from '@starzkg/vuepress-plugin-micro-analytics'
+import { panelbearAnalyticsPlugin } from '@starzkg/vuepress-plugin-panelbear-analytics'
 import { plausibleAnalyticsPlugin } from '@starzkg/vuepress-plugin-plausible-analytics'
 import { simpleAnalyticsPlugin } from '@starzkg/vuepress-plugin-simple-analytics'
 import { viteBundler } from '@vuepress/bundler-vite'
@@ -195,6 +196,9 @@ var _hmt = _hmt || [];
     simpleAnalyticsPlugin({}),
     plausibleAnalyticsPlugin({
       domain: 'shentuzhigang.cn',
+    }),
+    panelbearAnalyticsPlugin({
+      site: 'JDr9Jlf2g9W',
     }),
     registerComponentsPlugin({
       componentsDir: path.resolve(__dirname, './components'),
