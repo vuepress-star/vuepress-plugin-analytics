@@ -1,6 +1,6 @@
 {
   "name": "@starzkg/vuepress-plugin-baidu-analytics",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "VuePress plugin - baidu-analytics",
   "keywords": [
     "vuepress-plugin",
