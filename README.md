@@ -12,6 +12,33 @@
 
 Vuepress 网站数据统计插件 ✨
 
+## 特性
+
+- [x] Google
+- [x] Baidu
+- [x] Microsoft Clarity
+- [x] CNZZ
+- [x] Fathom
+- [x] MircoAnalytics
+- [x] SimpleAnalytics
+- [x] Panelbear
+- [x] Plausible
+- [x] Pirsch
+- [ ] Shynet
+- [ ] Ackee
+- [ ] SEMRush
+- [ ] SimilarWeb
+- [ ] StatCounter
+- [ ] 51la
+- [ ] Clicky
+- [ ] Matomo
+- [ ] Umami
+- [ ] Ubersuggest
+- [ ] Serpstat
+- [ ] Ahrefs
+- [ ] MonsterInsights
+- [x] Custom
+
 ## star 用户数量 / 时间变化图
 
 [![Stargazers over time](https://starchart.cc/vuepress-star/vuepress-plugin-analytics.svg)](https://starchart.cc/vuepress-star/vuepress-plugin-analytics)
@@ -22,7 +49,7 @@ Vuepress 网站数据统计插件 ✨
 
 对于想要关注我们的进展或为此项目做出贡献的用户，请查看 [roadmap](https://github.com/vuepress/vuepress-next/discussions/68) 。
 
-![Alt](https://repobeats.axiom.co/api/embed/2827b1222a806940ade242aea985f0008bf8a7de.svg "Repobeats analytics image")
+![Alt](https://repobeats.axiom.co/api/embed/e99ec7a127b37299e2572d05af9155ce36fa08ff.svg "Repobeats analytics image")
 
 ## 示例
 

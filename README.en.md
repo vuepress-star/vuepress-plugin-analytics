@@ -12,6 +12,33 @@
 
 Vuepress Plugin For Site Analytics ✨
 
+## Features
+
+- [x] Google
+- [x] Baidu
+- [x] Microsoft Clarity
+- [x] CNZZ
+- [x] Fathom
+- [x] MircoAnalytics
+- [x] SimpleAnalytics
+- [x] Panelbear
+- [x] Plausible
+- [x] Pirsch
+- [ ] Shynet
+- [ ] Ackee
+- [ ] SEMRush
+- [ ] SimilarWeb
+- [ ] StatCounter
+- [ ] 51la
+- [ ] Clicky
+- [ ] Matomo
+- [ ] Umami
+- [ ] Ubersuggest
+- [ ] Serpstat
+- [ ] Ahrefs
+- [ ] MonsterInsights
+- [x] Custom
+
 ## Stargazers over time
 
 [![Stargazers over time](https://starchart.cc/vuepress-star/vuepress-plugin-analytics.svg)](https://starchart.cc/vuepress-star/vuepress-plugin-analytics)
@@ -23,7 +50,7 @@ For users from VuePress v1, please check out the [migration guide](https://v2.vu
 For users who want to follow our progress or contribute to this project, please check out
 the [roadmap](https://github.com/vuepress-star/vuepress-plugin-analytics/discussions/68).
 
-![Alt](https://repobeats.axiom.co/api/embed/2827b1222a806940ade242aea985f0008bf8a7de.svg "Repobeats analytics image")
+![Alt](https://repobeats.axiom.co/api/embed/e99ec7a127b37299e2572d05af9155ce36fa08ff.svg "Repobeats analytics image")
 
 ## Example
 
