@@ -1,6 +1,6 @@
 {
   "name": "@starzkg/vuepress-plugin-google-analytics",
-  "version": "1.0.0-beta.27",
+  "version": "1.0.0-beta.28",
   "description": "VuePress plugin - google-analytics",
   "keywords": [
     "vuepress-plugin",
