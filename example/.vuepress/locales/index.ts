@@ -1,5 +1,4 @@
 import en from './en'
-import zh from './zh'
 export default {
   /**
    * English locale config
@@ -8,8 +7,4 @@ export default {
    * we don't need to set all of the locale fields
    */
   '/': en,
-  /**
-   * Chinese locale config
-   */
-  '/zh/': zh,
 }

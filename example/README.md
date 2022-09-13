@@ -9,34 +9,6 @@ actions:
   - text: Introduction 🚀
     link: /guide/
     type: secondary
-links:
-  - text: GitHub
-    icon: github
-    url: /
-  - text: Gitlab
-    icon: gitlab
-    url: /
-  - text: Gmail
-    icon: gmail
-    url: /
-  - text: Youtube
-    icon: youtube
-    url: /
-  - text: Steam
-    icon: steam
-    url: /
-  - text: Twitter
-    icon: twitter
-    url: /
-  - text: Instagram
-    icon: instagram
-    url: /
-  - text: Facebook
-    icon: facebook
-    url: /
-  - text: Flipboard
-    icon: flipboard
-    url: /
 features:
   - title: Simplicity First
     icon: aim
@@ -58,7 +30,34 @@ features:
     details: Both Webpack and Vite are supported. Choose the one you like!
 footer: MIT Licensed | Copyright © 2021-present Starzkg
 ---
-  
+
+## Features
+
+- [x] Google
+- [x] Baidu
+- [x] Microsoft Clarity
+- [x] CNZZ
+- [x] Fathom
+- [x] MircoAnalytics
+- [x] SimpleAnalytics
+- [x] Panelbear
+- [x] Plausible
+- [x] Pirsch
+- [ ] Shynet
+- [ ] Ackee
+- [ ] SEMRush
+- [ ] SimilarWeb
+- [ ] StatCounter
+- [ ] 51la
+- [ ] Clicky
+- [ ] Matomo
+- [ ] Umami
+- [ ] Ubersuggest
+- [ ] Serpstat
+- [ ] Ahrefs
+- [ ] MonsterInsights
+- [x] Custom
+
 ### As Easy as 1, 2, 3
 
 :::: code-group
@@ -67,10 +66,10 @@ footer: MIT Licensed | Copyright © 2021-present Starzkg
 
 ```bash
 # install in your project
-npm install -D @starzkg/vuepress-theme-star
+npm install -D @starzkg/vuepress-plugin-analytics
 
 # create a markdown file
-echo '# Hello VuePress Theme Star' > README.md
+echo '# Hello VuePress Plugin Analytics' > README.md
 
 # start writing
 npx vuepress dev
@@ -84,10 +83,10 @@ npx vuepress build
 
 ```bash
 # install in your project
-yarn add -D @starzkg/vuepress-theme-star
+yarn add -D @starzkg/vuepress-plugin-analytics
 
 # create a markdown file
-echo '# Hello VuePress Theme Star' > README.md
+echo '# Hello VuePress Plugin Analytics' > README.md
 
 # start writing
 yarn vuepress dev
@@ -101,10 +100,10 @@ yarn vuepress build
 
 ```bash
 # install in your project
-pnpm add - D @starzkg/vuepress-theme-star
+pnpm add - D @starzkg/vuepress-plugin-analytics
 
 # create a markdown file
-echo '# Hello VuePress Theme Star' > README.md
+echo '# Hello VuePress Plugin Analytics' > README.md
 
 # start writing
 pnpm vuepress dev

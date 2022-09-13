@@ -24,4 +24,17 @@ VuePress Site Analytics Plugin 📄 / VuePress 网站统计插件 📄
 - [x] Panelbear
 - [x] Plausible
 - [x] Pirsch
+- [ ] Shynet
+- [ ] Ackee
+- [ ] SEMRush
+- [ ] SimilarWeb
+- [ ] StatCounter
+- [ ] 51la
+- [ ] Clicky
+- [ ] Matomo
+- [ ] Umami
+- [ ] Ubersuggest
+- [ ] Serpstat
+- [ ] Ahrefs
+- [ ] MonsterInsights
 - [x] Custom

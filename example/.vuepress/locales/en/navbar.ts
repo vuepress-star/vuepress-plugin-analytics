@@ -4,20 +4,8 @@ export default [
     link: '/',
   },
   {
-    text: 'Profile',
-    link: '/profile.html',
-  },
-  {
-    text: 'Document',
-    link: '/document/',
-  },
-  {
-    text: 'Presentation',
-    link: '/presentation/',
-  },
-  {
-    text: 'Todo',
-    link: '/todo.html',
+    text: 'Plugins',
+    link: '/plugins',
   },
   {
     text: 'Docs',

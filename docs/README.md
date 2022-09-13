@@ -1,5 +1,5 @@
 ---
-page: DocumentHome
+home: true
 title: Home
 heroImage: /images/hero.png
 actions:
@@ -29,14 +29,14 @@ footer: MIT Licensed | Copyright © 2021-present Starzkg
 
 :::: code-group
 
-::: code-group-item title="NPM" active
+::: code-group-item NPM
 
 ```bash
 # install in your project
-npm install -D @starzkg/vuepress-theme-star
+npm install -D @starzkg/vuepress-plugin-analytics
 
 # create a markdown file
-echo '# Hello VuePress Theme Star' > README.md
+echo '# Hello VuePress Plugin Analytics' > README.md
 
 # start writing
 npx vuepress dev
@@ -46,14 +46,14 @@ npx vuepress build
 ```
 :::
 
-::: code-group-item title="YARN"
+::: code-group-item YARN
 
 ```bash
 # install in your project
-yarn add -D @starzkg/vuepress-theme-star
+yarn add -D @starzkg/vuepress-plugin-analytics
 
 # create a markdown file
-echo '# Hello VuePress Theme Star' > README.md
+echo '# Hello VuePress Plugin Analytics' > README.md
 
 # start writing
 yarn vuepress dev
@@ -63,14 +63,14 @@ yarn vuepress build
 ```
 :::
 
-::: code-group-item title="PNPM"
+::: code-group-item PNPM
 
 ```bash
 # install in your project
-pnpm add - D @starzkg/vuepress-theme-star
+pnpm add - D @starzkg/vuepress-plugin-analytics
 
 # create a markdown file
-echo '# Hello VuePress Theme Star' > README.md
+echo '# Hello VuePress Plugin Analytics' > README.md
 
 # start writing
 pnpm vuepress dev
