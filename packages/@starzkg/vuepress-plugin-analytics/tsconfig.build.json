@@ -20,6 +20,9 @@
       "path": "../vuepress-plugin-simple-analytics/tsconfig.build.json"
     },
     {
+      "path": "../vuepress-plugin-fathom-analytics/tsconfig.build.json"
+    },
+    {
       "path": "../vuepress-plugin-plausible-analytics/tsconfig.build.json"
     }
   ],

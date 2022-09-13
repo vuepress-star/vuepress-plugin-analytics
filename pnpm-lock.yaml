@@ -155,6 +155,7 @@ importers:
       '@starzkg/vuepress-plugin-baidu-analytics': workspace:*
       '@starzkg/vuepress-plugin-clarity-analytics': workspace:*
       '@starzkg/vuepress-plugin-cnzz-analytics': workspace:*
+      '@starzkg/vuepress-plugin-fathom-analytics': workspace:*
       '@starzkg/vuepress-plugin-google-analytics': workspace:*
       '@starzkg/vuepress-plugin-micro-analytics': workspace:*
       '@starzkg/vuepress-plugin-plausible-analytics': workspace:*
@@ -166,6 +167,7 @@ importers:
       '@starzkg/vuepress-plugin-baidu-analytics': link:../vuepress-plugin-baidu-analytics
       '@starzkg/vuepress-plugin-clarity-analytics': link:../vuepress-plugin-clarity-analytics
       '@starzkg/vuepress-plugin-cnzz-analytics': link:../vuepress-plugin-cnzz-analytics
+      '@starzkg/vuepress-plugin-fathom-analytics': link:../vuepress-plugin-fathom-analytics
       '@starzkg/vuepress-plugin-google-analytics': link:../vuepress-plugin-google-analytics
       '@starzkg/vuepress-plugin-micro-analytics': link:../vuepress-plugin-micro-analytics
       '@starzkg/vuepress-plugin-plausible-analytics': link:../vuepress-plugin-plausible-analytics
@@ -203,6 +205,18 @@ importers:
       '@vuepress/client': 2.0.0-beta.50
       '@vuepress/core': 2.0.0-beta.50
       '@vuepress/utils': 2.0.0-beta.50
+
+  packages/@starzkg/vuepress-plugin-fathom-analytics:
+    specifiers:
+      '@vuepress/client': 2.0.0-beta.50
+      '@vuepress/core': 2.0.0-beta.50
+      '@vuepress/utils': 2.0.0-beta.50
+      fathom-client: ^3.5.0
+    dependencies:
+      '@vuepress/client': 2.0.0-beta.50
+      '@vuepress/core': 2.0.0-beta.50
+      '@vuepress/utils': 2.0.0-beta.50
+      fathom-client: 3.5.0
 
   packages/@starzkg/vuepress-plugin-google-analytics:
     specifiers:
@@ -5502,6 +5516,10 @@ packages:
     resolution: {integrity: sha512-YpkpUnK8od0o1hmeSc7UUs/eB/vIPWJYjKck2QKIzAf71Vm1AAQ3EbuZB3g2JIy+pg+ERD0vqI79KyZiB2e2Nw==}
     dependencies:
       reusify: 1.0.4
+
+  /fathom-client/3.5.0:
+    resolution: {integrity: sha512-BiRDS9Q9a8Zma0H717FWC5cvf545K/CsxBpxKT22TcSl1EbRhhlHWIJgrdeiQUfdorBK2ppy09TwMOhRsbos/A==}
+    dev: false
 
   /faye-websocket/0.11.4:
     resolution: {integrity: sha512-CzbClwlXAuiRQAlUyfqPgvPoNKTckTPGfwZV4ZdAhVcP2lh9KUxJg2b5GkE7XbjKQ3YJnQ9z6D9ntLAlB+tP8g==}

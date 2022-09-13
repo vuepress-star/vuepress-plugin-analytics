@@ -23,6 +23,9 @@
       "path": "./packages/@starzkg/vuepress-plugin-simple-analytics/tsconfig.build.json"
     },
     {
+      "path": "./packages/@starzkg/vuepress-plugin-fathom-analytics/tsconfig.build.json"
+    },
+    {
       "path": "./packages/@starzkg/vuepress-plugin-plausible-analytics/tsconfig.build.json"
     }
   ],

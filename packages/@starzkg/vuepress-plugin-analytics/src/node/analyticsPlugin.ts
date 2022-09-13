@@ -2,6 +2,8 @@ import type { BaiduAnalyticsPluginOptions } from '@starzkg/vuepress-plugin-baidu
 import type { ClarityAnalyticsPluginOptions } from '@starzkg/vuepress-plugin-clarity-analytics'
 import { clarityAnalyticsPlugin } from '@starzkg/vuepress-plugin-clarity-analytics'
 import type { CnzzAnalyticsPluginOptions } from '@starzkg/vuepress-plugin-cnzz-analytics'
+import type { FathomAnalyticsPluginOptions } from '@starzkg/vuepress-plugin-fathom-analytics'
+import { fathomAnalyticsPlugin } from '@starzkg/vuepress-plugin-fathom-analytics'
 import type { GoogleAnalyticsPluginOptions } from '@starzkg/vuepress-plugin-google-analytics'
 import { googleAnalyticsPlugin } from '@starzkg/vuepress-plugin-google-analytics'
 import type { MicroAnalyticsPluginOptions } from '@starzkg/vuepress-plugin-micro-analytics'
@@ -47,6 +49,11 @@ export interface AnalyticsPluginOptions {
   simple?: SimpleAnalyticsPluginOptions
 
   /**
+   * Options for @starzkg/vuepress-plugin-fathom-analytics
+   */
+  fathom?: FathomAnalyticsPluginOptions
+
+  /**
    * Options for @starzkg/vuepress-plugin-plausible-analytics
    */
   plausible?: PlausibleAnalyticsPluginOptions
@@ -89,6 +96,10 @@ export const analyticsPlugin =
 
     if (options.simple) {
       app.use(simpleAnalyticsPlugin(options.simple))
+    }
+
+    if (options.fathom) {
+      app.use(fathomAnalyticsPlugin(options.fathom))
     }
 
     if (options.plausible) {
