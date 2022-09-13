@@ -31,6 +31,5 @@ export const usePanelbearAnalytics = (site: string): void => {
       ;(window.panelbear.q = window.panelbear.q || []).push(arguments)
     }
 
-  panelbear('js', new Date())
   panelbear('config', { site })
 }

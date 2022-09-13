@@ -5,6 +5,7 @@ import { cnzzAnalyticsPlugin } from '@starzkg/vuepress-plugin-cnzz-analytics'
 import { googleAnalyticsPlugin } from '@starzkg/vuepress-plugin-google-analytics'
 import { microAnalyticsPlugin } from '@starzkg/vuepress-plugin-micro-analytics'
 import { panelbearAnalyticsPlugin } from '@starzkg/vuepress-plugin-panelbear-analytics'
+import { pirschAnalyticsPlugin } from '@starzkg/vuepress-plugin-pirsch-analytics'
 import { plausibleAnalyticsPlugin } from '@starzkg/vuepress-plugin-plausible-analytics'
 import { simpleAnalyticsPlugin } from '@starzkg/vuepress-plugin-simple-analytics'
 import { viteBundler } from '@vuepress/bundler-vite'
@@ -199,6 +200,9 @@ var _hmt = _hmt || [];
     }),
     panelbearAnalyticsPlugin({
       site: 'JDr9Jlf2g9W',
+    }),
+    pirschAnalyticsPlugin({
+      code: 'DN6EGxdeEKeDnbNUzhZmsbAWzCNqbt06',
     }),
     registerComponentsPlugin({
       componentsDir: path.resolve(__dirname, './components'),

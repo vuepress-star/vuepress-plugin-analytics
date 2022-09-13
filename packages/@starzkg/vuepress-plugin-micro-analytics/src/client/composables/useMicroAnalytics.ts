@@ -1,9 +1,7 @@
-declare const dataLayer: any[]
-declare const micro: (...args: any[]) => void
+declare const micro: any
 
 declare global {
   interface Window {
-    dataLayer?: typeof dataLayer
     micro?: typeof micro
   }
 }
@@ -13,7 +11,7 @@ declare global {
  */
 export const useMicroAnalytics = (host: string, id: string): void => {
   // avoid duplicated import
-  if (window.dataLayer && window.micro) {
+  if (window.micro) {
     return
   }
 
@@ -28,12 +26,13 @@ export const useMicroAnalytics = (host: string, id: string): void => {
   document.head.appendChild(microScript)
 
   // insert micro snippet
-  window.dataLayer = window.dataLayer || []
-  // the micro function must use `arguments` object to forward parameters
-  window.micro = function () {
-    // eslint-disable-next-line prefer-rest-params
-    dataLayer.push(arguments)
-  }
+  window.micro =
+    window.micro ||
+    function () {
+      // the micro function must use `arguments` object to forward parameters
+      // eslint-disable-next-line prefer-rest-params
+      ;(window.micro.q = window.micro.q || []).push(arguments)
+    }
 
   micro('js', new Date())
   micro('config', id)

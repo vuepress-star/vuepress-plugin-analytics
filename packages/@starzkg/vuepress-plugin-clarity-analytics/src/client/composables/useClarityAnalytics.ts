@@ -1,23 +1,19 @@
-declare const dataLayer: any[]
-declare const clarityTag: (...args: any[]) => void
 declare const clarity: any
 
 declare global {
   interface Window {
-    dataLayer?: typeof dataLayer
-    clarityTag?: typeof clarityTag
     clarity?: typeof clarity
   }
 }
 
 /**
- * Add clarityTag.js to your site
+ * Add clarity to your site
  *
  * @see https://docs.microsoft.com/en-us/clarity/clarity-setup
  */
 export const useClarityAnalytics = (id: string): void => {
   // avoid duplicated import
-  if (window.dataLayer && window.clarityTag) {
+  if (window.clarity) {
     return
   }
 
@@ -28,20 +24,11 @@ export const useClarityAnalytics = (id: string): void => {
   clarityScript.async = true
   document.head.appendChild(clarityScript)
 
-  // insert clarityTag snippet
-  window.dataLayer = window.dataLayer || []
-  // the clarityTag function must use `arguments` object to forward parameters
-  window.clarityTag = function () {
-    // eslint-disable-next-line prefer-rest-params
-    dataLayer.push(arguments)
-  }
-
-  clarityTag('js', new Date())
-  clarityTag('config', id)
-
+  // insert clarity snippet
   window.clarity =
     window.clarity ||
     function () {
+      // the clarity function must use `arguments` object to forward parameters
       // eslint-disable-next-line prefer-rest-params
       ;(window.clarity.q = window.clarity.q || []).push(arguments)
     }

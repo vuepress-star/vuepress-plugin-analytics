@@ -1,12 +1,8 @@
-declare const dataLayer: any[]
-declare const simple: (...args: any[]) => void
 declare const doNotTrack: string
 
 declare global {
   interface Window {
     doNotTrack?: typeof doNotTrack
-    dataLayer?: typeof dataLayer
-    simple?: typeof simple
   }
 
   interface Navigator {
@@ -23,9 +19,10 @@ export const useSimpleAnalytics = (
   skipDnt: boolean
 ): void => {
   // avoid duplicated import
-  if (window.dataLayer && window.simple) {
+  if (window[eventsGlobal]) {
     return
   }
+
   const dnt =
     window.doNotTrack || navigator.doNotTrack || navigator.msDoNotTrack || ''
 
@@ -47,21 +44,14 @@ export const useSimpleAnalytics = (
   document.head.appendChild(simpleScript)
 
   // insert simple snippet
-  window.dataLayer = window.dataLayer || []
-  // the simple function must use `arguments` object to forward parameters
-  window.simple = function () {
-    // eslint-disable-next-line prefer-rest-params
-    dataLayer.push(arguments)
-  }
-
-  simple('js', new Date())
-  simple('config', host)
-
   window[eventsGlobal] =
     window[eventsGlobal] ||
-    function (a) {
+    function () {
+      // the window[eventsGlobal] function must use `arguments` object to forward parameters
       window[eventsGlobal].q
-        ? window[eventsGlobal].q.push(a)
-        : (window[eventsGlobal].q = [a])
+        ? // eslint-disable-next-line prefer-rest-params
+          window[eventsGlobal].q.push(arguments)
+        : // eslint-disable-next-line prefer-rest-params
+          (window[eventsGlobal].q = [...arguments])
     }
 }

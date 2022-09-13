@@ -14,7 +14,7 @@ export default defineClientConfig({
   enhance: ({ router }) => {
     if (__VUEPRESS_SSR__) return
     useFathomAnalytics(options.siteId, options.options)
-    router.afterEach(function (to) {
+    router.beforeEach(function (to) {
       Fathom.trackPageview()
     })
   },

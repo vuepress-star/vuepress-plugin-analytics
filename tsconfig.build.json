@@ -30,6 +30,9 @@
     },
     {
       "path": "./packages/@starzkg/vuepress-plugin-panelbear-analytics/tsconfig.build.json"
+    },
+    {
+      "path": "./packages/@starzkg/vuepress-plugin-pirsch-analytics/tsconfig.build.json"
     }
   ],
   "files": []

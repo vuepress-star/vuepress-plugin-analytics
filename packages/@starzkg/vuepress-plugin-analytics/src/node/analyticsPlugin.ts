@@ -10,6 +10,8 @@ import type { MicroAnalyticsPluginOptions } from '@starzkg/vuepress-plugin-micro
 import { microAnalyticsPlugin } from '@starzkg/vuepress-plugin-micro-analytics'
 import type { PanelbearAnalyticsPluginOptions } from '@starzkg/vuepress-plugin-panelbear-analytics'
 import { panelbearAnalyticsPlugin } from '@starzkg/vuepress-plugin-panelbear-analytics'
+import { pirschAnalyticsPlugin } from '@starzkg/vuepress-plugin-pirsch-analytics'
+import type { PirschAnalyticsPluginOptions } from '@starzkg/vuepress-plugin-pirsch-analytics'
 import type { PlausibleAnalyticsPluginOptions } from '@starzkg/vuepress-plugin-plausible-analytics'
 import { plausibleAnalyticsPlugin } from '@starzkg/vuepress-plugin-plausible-analytics'
 import { simpleAnalyticsPlugin } from '@starzkg/vuepress-plugin-simple-analytics'
@@ -66,6 +68,11 @@ export interface AnalyticsPluginOptions {
   panelbear?: PanelbearAnalyticsPluginOptions
 
   /**
+   * Options for @starzkg/vuepress-plugin-pirsch-analytics
+   */
+  pirsch?: PirschAnalyticsPluginOptions
+
+  /**
    * Options for Custom
    */
   custom?: string
@@ -116,6 +123,10 @@ export const analyticsPlugin =
 
     if (options.panelbear) {
       app.use(panelbearAnalyticsPlugin(options.panelbear))
+    }
+
+    if (options.pirsch) {
+      app.use(pirschAnalyticsPlugin(options.pirsch))
     }
 
     if (!options.custom) {

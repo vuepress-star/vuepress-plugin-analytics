@@ -1,14 +1,12 @@
 {
-  "name": "@starzkg/vuepress-plugin-analytics",
+  "name": "@starzkg/vuepress-plugin-pirsch-analytics",
   "version": "1.0.0",
-  "description": "VuePress plugin - analytics",
+  "description": "VuePress plugin - pirsch-analytics",
   "keywords": [
     "vuepress-plugin",
     "vuepress",
     "plugin",
-    "google",
-    "baidu",
-    "cnzz",
+    "pirsch",
     "analytics"
   ],
   "homepage": "https://vuepress-star.shentuzhigang.cn",
@@ -18,7 +16,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vuepress-star/vuepress-plugin-analytics.git",
-    "directory": "packages/@starzkg/vuepress-plugin-analytics"
+    "directory": "packages/@starzkg/vuepress-plugin-pirsch-analytics"
   },
   "license": "MIT",
   "author": {
@@ -42,16 +40,6 @@
     "clean": "rimraf lib *.tsbuildinfo"
   },
   "dependencies": {
-    "@starzkg/vuepress-plugin-baidu-analytics": "workspace:*",
-    "@starzkg/vuepress-plugin-clarity-analytics": "workspace:*",
-    "@starzkg/vuepress-plugin-cnzz-analytics": "workspace:*",
-    "@starzkg/vuepress-plugin-fathom-analytics": "workspace:*",
-    "@starzkg/vuepress-plugin-google-analytics": "workspace:*",
-    "@starzkg/vuepress-plugin-micro-analytics": "workspace:*",
-    "@starzkg/vuepress-plugin-panelbear-analytics": "workspace:*",
-    "@starzkg/vuepress-plugin-pirsch-analytics": "workspace:*",
-    "@starzkg/vuepress-plugin-plausible-analytics": "workspace:*",
-    "@starzkg/vuepress-plugin-simple-analytics": "workspace:*",
     "@vuepress/client": "2.0.0-beta.50",
     "@vuepress/core": "2.0.0-beta.50",
     "@vuepress/utils": "2.0.0-beta.50"
