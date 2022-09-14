@@ -1,7 +1,9 @@
 import type { BaiduAnalyticsPluginOptions } from '@starzkg/vuepress-plugin-baidu-analytics'
+import { baiduAnalyticsPlugin } from '@starzkg/vuepress-plugin-baidu-analytics'
 import type { ClarityAnalyticsPluginOptions } from '@starzkg/vuepress-plugin-clarity-analytics'
 import { clarityAnalyticsPlugin } from '@starzkg/vuepress-plugin-clarity-analytics'
 import type { CnzzAnalyticsPluginOptions } from '@starzkg/vuepress-plugin-cnzz-analytics'
+import { cnzzAnalyticsPlugin } from '@starzkg/vuepress-plugin-cnzz-analytics'
 import type { FathomAnalyticsPluginOptions } from '@starzkg/vuepress-plugin-fathom-analytics'
 import { fathomAnalyticsPlugin } from '@starzkg/vuepress-plugin-fathom-analytics'
 import type { GoogleAnalyticsPluginOptions } from '@starzkg/vuepress-plugin-google-analytics'
@@ -98,11 +100,11 @@ export const analyticsPlugin =
     }
 
     if (options.baidu) {
-      app.use(googleAnalyticsPlugin(options.baidu))
+      app.use(baiduAnalyticsPlugin(options.baidu))
     }
 
     if (options.cnzz) {
-      app.use(googleAnalyticsPlugin(options.cnzz))
+      app.use(cnzzAnalyticsPlugin(options.cnzz))
     }
 
     if (options.micro) {
@@ -130,7 +132,7 @@ export const analyticsPlugin =
     }
 
     if (!options.custom) {
-      return
+      return plugin
     }
 
     return {
