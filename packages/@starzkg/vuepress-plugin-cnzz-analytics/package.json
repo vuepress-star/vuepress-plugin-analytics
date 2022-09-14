@@ -1,6 +1,6 @@
 {
   "name": "@starzkg/vuepress-plugin-cnzz-analytics",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "VuePress plugin - cnzz-analytics",
   "keywords": [
     "vuepress-plugin",

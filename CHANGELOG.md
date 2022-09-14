@@ -1,3 +1,12 @@
+## [1.1.1](https://github.com/vuepress-star/vuepress-plugin-analytics/compare/v1.1.0...v1.1.1) (2022-09-14)
+
+
+### Bug Fixes
+
+* fix ([2bae19a](https://github.com/vuepress-star/vuepress-plugin-analytics/commit/2bae19a6297d24d5787826f4395df47ef9498e28))
+
+
+
 # [1.1.0](https://github.com/vuepress-star/vuepress-plugin-analytics/compare/v1.0.0...v1.1.0) (2022-09-13)
 
 

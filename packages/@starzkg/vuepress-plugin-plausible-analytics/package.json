@@ -1,6 +1,6 @@
 {
   "name": "@starzkg/vuepress-plugin-plausible-analytics",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "VuePress plugin - plausible-analytics",
   "keywords": [
     "vuepress-plugin",
