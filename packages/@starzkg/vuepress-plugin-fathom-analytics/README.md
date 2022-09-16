@@ -12,3 +12,23 @@
 [![Version](https://img.shields.io/npm/v/@starzkg/vuepress-plugin-fathom-analytics.svg?style=flat-square&logo=npm) ![Downloads](https://img.shields.io/npm/dm/@starzkg/vuepress-plugin-fathom-analytics.svg?style=flat-square&logo=npm) ![Size](https://img.shields.io/bundlephobia/min/@starzkg/vuepress-plugin-fathom-analytics?style=flat-square&logo=npm)](https://www.npmjs.com/package/@starzkg/vuepress-plugin-fathom-analytics)
 
 VuePress Fathom Analytics Plugin 📄 / VuePress Fathom 统计插件 📄
+
+## Use
+```typescript
+    fathomAnalyticsPlugin({
+      siteId: 'xxx',
+      options: {
+        url: 'xxx',
+        auto: true,
+        honorDNT: true,
+        canonical: true,
+        includedDomains: [],
+        excludedDomains: [],
+        spa: 'auto' | 'history' | 'hash'
+      }
+    })
+```
+
+## License
+
+[MIT](https://github.com/vuepress-star/vuepress-plugin-baidu-analytics/blob/main/LICENSE)

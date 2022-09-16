@@ -15,3 +15,12 @@ VuePress SimpleAnalytics Plugin 📄 / VuePress SimpleAnalytics 统计插件 �
 
 ## 参考
 - https://github.com/simpleanalytics/vuepress-plugin
+
+## Use
+```typescript
+    simpleAnalyticsPlugin({})
+```
+
+## License
+
+[MIT](https://github.com/vuepress-star/vuepress-plugin-baidu-analytics/blob/main/LICENSE)

@@ -38,3 +38,12 @@ VuePress Site Analytics Plugin 📄 / VuePress 网站统计插件 📄
 - [ ] Ahrefs
 - [ ] MonsterInsights
 - [x] Custom
+
+## Use
+```typescript
+
+```
+
+## License
+
+[MIT](https://github.com/vuepress-star/vuepress-plugin-baidu-analytics/blob/main/LICENSE)

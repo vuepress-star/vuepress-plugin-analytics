@@ -12,3 +12,14 @@
 [![Version](https://img.shields.io/npm/v/@starzkg/vuepress-plugin-plausible-analytics.svg?style=flat-square&logo=npm) ![Downloads](https://img.shields.io/npm/dm/@starzkg/vuepress-plugin-plausible-analytics.svg?style=flat-square&logo=npm) ![Size](https://img.shields.io/bundlephobia/min/@starzkg/vuepress-plugin-plausible-analytics?style=flat-square&logo=npm)](https://www.npmjs.com/package/@starzkg/vuepress-plugin-plausible-analytics)
 
 VuePress Plausible Analytics Plugin 📄 / VuePress Plausible 统计插件 📄
+
+## Use
+```typescript
+    plausibleAnalyticsPlugin({
+      domain: 'xxx.com',
+    })
+```
+
+## License
+
+[MIT](https://github.com/vuepress-star/vuepress-plugin-baidu-analytics/blob/main/LICENSE)

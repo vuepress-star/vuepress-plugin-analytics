@@ -12,3 +12,14 @@
 [![Version](https://img.shields.io/npm/v/@starzkg/vuepress-plugin-clarity-analytics.svg?style=flat-square&logo=npm) ![Downloads](https://img.shields.io/npm/dm/@starzkg/vuepress-plugin-clarity-analytics.svg?style=flat-square&logo=npm) ![Size](https://img.shields.io/bundlephobia/min/@starzkg/vuepress-plugin-clarity-analytics?style=flat-square&logo=npm)](https://www.npmjs.com/package/@starzkg/vuepress-plugin-clarity-analytics)
 
 VuePress Microsoft Clarity Analytics Plugin 📄 / VuePress 微软 Clarity 统计插件 📄
+
+## Use
+```typescript
+    clarityAnalyticsPlugin({
+      id: 'xxx',
+    })
+```
+
+## License
+
+[MIT](https://github.com/vuepress-star/vuepress-plugin-baidu-analytics/blob/main/LICENSE)
