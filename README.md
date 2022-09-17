@@ -20,7 +20,7 @@
 [![coverage](https://coveralls.io/repos/github/vuepress-star/vuepress-plugin-analytics/badge.svg?branch=main)](https://coveralls.io/github/vuepress-star/vuepress-plugin-analytics?branch=main)
 [![license](https://badgen.net/github/license/vuepress-star/vuepress-plugin-analytics)](https://github.com/vuepress-star/vuepress-plugin-analytics/blob/main/LICENSE)
 [![opencollective](https://opencollective.com/vuepress-plugin-analytics/tiers/badge.svg)](https://opencollective.com/vuepress-plugin-analytics)
-[![DeepScan grade](https://deepscan.io/api/teams/9792/projects/17544/branches/405512/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=9792&pid=17544&bid=405512)
+[![DeepScan grade](https://deepscan.io/api/teams/18998/projects/22331/branches/657687/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=18998&pid=22331&bid=657687)
 [![codecov](https://codecov.io/gh/vuepress-star/vuepress-plugin-analytics/branch/main/graph/badge.svg?token=TNYMbGlxQ9)](https://codecov.io/gh/vuepress-star/vuepress-plugin-analytics)
 [![discord](https://badgen.net/discord/online-members/ptFjefy6H5?icon=discord&label=discord)](https://discord.gg/ptFjefy6H5)
 
