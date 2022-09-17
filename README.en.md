@@ -3,11 +3,25 @@
 
 # vuepress-plugin-analytics
 
+[![Author: Starzkg](https://img.shields.io/badge/Author-Starzkg-blue.svg?style=for-the-badge)](https://shentuzhigang.cn)
+[![License](https://img.shields.io/npm/l/@starzkg/vuepress-plugin-analytics.svg?style=for-the-badge)](https://github.com/vuepress-star/vuepress-plugin-analytics/blob/main/LICENSE)
+[![Open in Visual Studio Code](https://img.shields.io/badge/-open%20in%20vscode-blue?style=for-the-badge&logo=visualstudiocode)](https://open.vscode.dev/vuepress-star/vuepress-plugin-analytics)
+
 [![github check](https://github.com/vuepress-star/vuepress-plugin-analytics/workflows/check/badge.svg)](https://github.com/vuepress-star/vuepress-plugin-analytics/actions?query=workflow%3Acheck)
 [![github docs](https://github.com/vuepress-star/vuepress-plugin-analytics/workflows/docs/badge.svg)](https://github.com/vuepress-star/vuepress-plugin-analytics/actions?query=workflow%3Adocs)
-[![npm](https://badgen.net/npm/v/@starzkg/vuepress-plugin-analytics/beta)](https://www.npmjs.com/package/@starzkg/vuepress-plugin-analytics)
+[![github CodeQL](https://github.com/vuepress-star/vuepress-plugin-analytics/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/vuepress-star/vuepress-plugin-analytics/actions?query=workflow%3Acodeql-analysis)
+[![github Test plugin](https://github.com/vuepress-star/vuepress-plugin-analytics/actions/workflows/test.yml/badge.svg)](https://github.com/vuepress-star/vuepress-plugin-analytics/actions?query=workflow%3Atest)
+
+[![Npm Version](https://img.shields.io/npm/v/@starzkg/vuepress-plugin-analytics.svg?style=flat-square&logo=npm)](https://www.npmjs.com/package/@starzkg/vuepress-plugin-analytics)
+[![Npm Downloads](https://img.shields.io/npm/dm/@starzkg/vuepress-plugin-analytics.svg?style=flat-square&logo=npm)](https://www.npmjs.com/package/@starzkg/vuepress-plugin-analytics)
+[![Npm Total downloads](https://img.shields.io/npm/dt/@starzkg/vuepress-plugin-analytics?style=flat-square&logo=npm)](https://www.npmjs.com/package/@starzkg/vuepress-plugin-analytics)
+[![Npm Size](https://img.shields.io/bundlephobia/min/@starzkg/vuepress-plugin-analytics?style=flat-square&logo=npm)](https://www.npmjs.com/package/@starzkg/vuepress-plugin-analytics)
+
 [![coverage](https://coveralls.io/repos/github/vuepress-star/vuepress-plugin-analytics/badge.svg?branch=main)](https://coveralls.io/github/vuepress-star/vuepress-plugin-analytics?branch=main)
 [![license](https://badgen.net/github/license/vuepress-star/vuepress-plugin-analytics)](https://github.com/vuepress-star/vuepress-plugin-analytics/blob/main/LICENSE)
+[![opencollective](https://opencollective.com/vuepress-plugin-analytics/tiers/badge.svg)](https://opencollective.com/vuepress-plugin-analytics)
+[![DeepScan grade](https://deepscan.io/api/teams/9792/projects/17544/branches/405512/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=9792&pid=17544&bid=405512)
+[![codecov](https://codecov.io/gh/vuepress-star/vuepress-plugin-analytics/branch/main/graph/badge.svg?token=TNYMbGlxQ9)](https://codecov.io/gh/vuepress-star/vuepress-plugin-analytics)
 [![discord](https://badgen.net/discord/online-members/ptFjefy6H5?icon=discord&label=discord)](https://discord.gg/ptFjefy6H5)
 
 Vuepress Plugin For Site Analytics ✨
