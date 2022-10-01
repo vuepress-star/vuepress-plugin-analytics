@@ -1,5 +1,7 @@
 {
-  "extends": ["config:base"],
-  "includeForks": true,
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:base"
+  ],
   "prHourlyLimit": 3
 }
