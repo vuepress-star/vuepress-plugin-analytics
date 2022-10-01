@@ -37,7 +37,7 @@ jobs:
         run: pnpm docs:release
 
       - name: Deploy to GitHub Pages
-        uses: crazy-max/ghaction-github-pages@v2.2.0
+        uses: crazy-max/ghaction-github-pages@v2.7.0
         with:
           repo: vuepress/vuepress.github.io
           target_branch: main
