@@ -83,7 +83,7 @@ importers:
       '@vuepress/theme-default': 2.0.0-beta.50
       '@vuepress/utils': 2.0.0-beta.50
       anywhere: 1.6.0
-      sass-loader: 13.0.2
+      sass-loader: 13.1.0
       vue: 3.2.40
       vuepress: 2.0.0-beta.50
     dependencies:
@@ -95,12 +95,12 @@ importers:
       '@vuepress/plugin-google-analytics': 2.0.0-beta.50
       '@vuepress/plugin-register-components': 2.0.0-beta.50
       '@vuepress/plugin-shiki': 2.0.0-beta.50
-      '@vuepress/theme-default': 2.0.0-beta.50_sass-loader@13.0.2
+      '@vuepress/theme-default': 2.0.0-beta.50_sass-loader@13.1.0
       '@vuepress/utils': 2.0.0-beta.50
       anywhere: 1.6.0
-      sass-loader: 13.0.2
+      sass-loader: 13.1.0
       vue: 3.2.40
-      vuepress: 2.0.0-beta.50_apth7u5fxdkgmzefd4agff66la
+      vuepress: 2.0.0-beta.50_i42gnzbcavtkm7o4m35z5zgj2u
 
   example/.vuepress:
     specifiers:
@@ -125,7 +125,7 @@ importers:
       '@vuepress/theme-default': 2.0.0-beta.50
       '@vuepress/utils': 2.0.0-beta.50
       anywhere: 1.6.0
-      sass-loader: 13.0.2
+      sass-loader: 13.1.0
       vue: 3.2.40
       vuepress: 2.0.0-beta.50
     dependencies:
@@ -147,12 +147,12 @@ importers:
       '@vuepress/plugin-google-analytics': 2.0.0-beta.50
       '@vuepress/plugin-register-components': 2.0.0-beta.50
       '@vuepress/plugin-shiki': 2.0.0-beta.50
-      '@vuepress/theme-default': 2.0.0-beta.50_sass-loader@13.0.2
+      '@vuepress/theme-default': 2.0.0-beta.50_sass-loader@13.1.0
       '@vuepress/utils': 2.0.0-beta.50
       anywhere: 1.6.0
-      sass-loader: 13.0.2
+      sass-loader: 13.1.0
       vue: 3.2.40
-      vuepress: 2.0.0-beta.50_apth7u5fxdkgmzefd4agff66la
+      vuepress: 2.0.0-beta.50_i42gnzbcavtkm7o4m35z5zgj2u
 
   packages/@starzkg/vuepress-plugin-analytics:
     specifiers:
@@ -2922,7 +2922,7 @@ packages:
       '@vue/shared': 3.2.39
     dev: false
 
-  /@vuepress/theme-default/2.0.0-beta.50_sass-loader@13.0.2:
+  /@vuepress/theme-default/2.0.0-beta.50_sass-loader@13.1.0:
     resolution: {integrity: sha512-dCpCAzQbHXkoQdOedtm9sv7dR72T4UD7OwHzis9Wsjl7zn6TKf/TwOz4MgaJ8ay0UM7mjzg86i4bxBJdbCtliQ==}
     peerDependencies:
       sass-loader: ^13.0.0
@@ -2946,7 +2946,7 @@ packages:
       '@vuepress/utils': 2.0.0-beta.50
       '@vueuse/core': 9.2.0_vue@3.2.40
       sass: 1.54.9
-      sass-loader: 13.0.2
+      sass-loader: 13.1.0
       vue: 3.2.40
       vue-router: 4.1.5_vue@3.2.40
     transitivePeerDependencies:
@@ -8250,8 +8250,8 @@ packages:
     resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==}
     dev: false
 
-  /sass-loader/13.0.2:
-    resolution: {integrity: sha512-BbiqbVmbfJaWVeOOAu2o7DhYWtcNmTfvroVgFXa6k2hHheMxNAeDHLNoDy/Q5aoaVlz0LH+MbMktKwm9vN/j8Q==}
+  /sass-loader/13.1.0:
+    resolution: {integrity: sha512-tZS1RJQ2n2+QNyf3CCAo1H562WjL/5AM6Gi8YcPVVoNxQX8d19mx8E+8fRrMWsyc93ZL6Q8vZDSM0FHVTJaVnQ==}
     engines: {node: '>= 14.15.0'}
     peerDependencies:
       fibers: '>= 3.1.0'
@@ -9502,7 +9502,7 @@ packages:
       '@vue/shared': 3.2.40
     dev: false
 
-  /vuepress-vite/2.0.0-beta.50_apth7u5fxdkgmzefd4agff66la:
+  /vuepress-vite/2.0.0-beta.50_i42gnzbcavtkm7o4m35z5zgj2u:
     resolution: {integrity: sha512-LJxFTTkGFVHTfG1BsrysevVOp5RT4151fSrTBP68/NfpW7xv+8PdVxgATwKqgPwPJ+AXJhYN/7sZC4gjKbgGpw==}
     hasBin: true
     peerDependencies:
@@ -9513,7 +9513,7 @@ packages:
       '@vuepress/cli': 2.0.0-beta.50
       '@vuepress/client': 2.0.0-beta.50
       '@vuepress/core': 2.0.0-beta.50
-      '@vuepress/theme-default': 2.0.0-beta.50_sass-loader@13.0.2
+      '@vuepress/theme-default': 2.0.0-beta.50_sass-loader@13.1.0
       vue: 3.2.40
     transitivePeerDependencies:
       - '@vue/composition-api'
@@ -9525,11 +9525,11 @@ packages:
       - terser
     dev: false
 
-  /vuepress/2.0.0-beta.50_apth7u5fxdkgmzefd4agff66la:
+  /vuepress/2.0.0-beta.50_i42gnzbcavtkm7o4m35z5zgj2u:
     resolution: {integrity: sha512-iBWEvKT9j4MLlrx7ky/4meguCE0FKMMtaqIw9LVrlPQvBj0TS4C3p+KNigyGyQYWAfpbpLctWTxgiqId9yXiPw==}
     hasBin: true
     dependencies:
-      vuepress-vite: 2.0.0-beta.50_apth7u5fxdkgmzefd4agff66la
+      vuepress-vite: 2.0.0-beta.50_i42gnzbcavtkm7o4m35z5zgj2u
     transitivePeerDependencies:
       - '@vue/composition-api'
       - '@vuepress/client'
