@@ -1,5 +1,5 @@
 ---
-page: Home
+home: true
 title: Home
 heroImage: /images/hero.png
 actions:
