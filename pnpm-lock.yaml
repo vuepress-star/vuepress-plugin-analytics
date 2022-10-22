@@ -9,7 +9,7 @@ importers:
       '@babel/preset-env': 7.19.3
       '@commitlint/cli': 17.1.2
       '@commitlint/config-conventional': 17.1.0
-      '@rollup/plugin-commonjs': 22.0.0
+      '@rollup/plugin-commonjs': 22.0.2
       '@rollup/plugin-json': 4.1.0
       '@rollup/plugin-node-resolve': 13.3.0
       '@rollup/plugin-typescript': 8.3.2
@@ -42,7 +42,7 @@ importers:
       '@babel/preset-env': 7.19.3_@babel+core@7.19.0
       '@commitlint/cli': 17.1.2
       '@commitlint/config-conventional': 17.1.0
-      '@rollup/plugin-commonjs': 22.0.0_rollup@3.2.3
+      '@rollup/plugin-commonjs': 22.0.2_rollup@3.2.3
       '@rollup/plugin-json': 4.1.0_rollup@3.2.3
       '@rollup/plugin-node-resolve': 13.3.0_rollup@3.2.3
       '@rollup/plugin-typescript': 8.3.2_bvn3ed5hy3sfde644tygjdj4ia
@@ -2009,8 +2009,8 @@ packages:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.13.0
 
-  /@rollup/plugin-commonjs/22.0.0_rollup@3.2.3:
-    resolution: {integrity: sha512-Ktvf2j+bAO+30awhbYoCaXpBcyPmJbaEUYClQns/+6SNCYFURbvBiNbWgHITEsIgDDWCDUclWRKEuf8cwZCFoQ==}
+  /@rollup/plugin-commonjs/22.0.2_rollup@3.2.3:
+    resolution: {integrity: sha512-//NdP6iIwPbMTcazYsiBMbJW7gfmpHom33u1beiIoHDEM0Q9clvtQB1T0efvMqHeKsGohiHo97BCPCkBXdscwg==}
     engines: {node: '>= 12.0.0'}
     peerDependencies:
       rollup: ^2.68.0
