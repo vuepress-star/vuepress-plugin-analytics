@@ -12,7 +12,7 @@ importers:
       '@rollup/plugin-commonjs': 22.0.0
       '@rollup/plugin-json': 4.1.0
       '@rollup/plugin-node-resolve': 13.3.0
-      '@rollup/plugin-typescript': 8.3.2
+      '@rollup/plugin-typescript': 8.5.0
       '@types/node': 18.7.23
       '@types/webpack-env': 1.18.0
       '@vitest/coverage-istanbul': 0.22.1
@@ -45,7 +45,7 @@ importers:
       '@rollup/plugin-commonjs': 22.0.0_rollup@3.2.3
       '@rollup/plugin-json': 4.1.0_rollup@3.2.3
       '@rollup/plugin-node-resolve': 13.3.0_rollup@3.2.3
-      '@rollup/plugin-typescript': 8.3.2_bvn3ed5hy3sfde644tygjdj4ia
+      '@rollup/plugin-typescript': 8.5.0_bvn3ed5hy3sfde644tygjdj4ia
       '@types/node': 18.7.23
       '@types/webpack-env': 1.18.0
       '@vitest/coverage-istanbul': 0.22.1
@@ -2049,14 +2049,16 @@ packages:
       rollup: 3.2.3
     dev: true
 
-  /@rollup/plugin-typescript/8.3.2_bvn3ed5hy3sfde644tygjdj4ia:
-    resolution: {integrity: sha512-MtgyR5LNHZr3GyN0tM7gNO9D0CS+Y+vflS4v/PHmrX17JCkHUYKvQ5jN5o3cz1YKllM3duXUqu3yOHwMPUxhDg==}
+  /@rollup/plugin-typescript/8.5.0_bvn3ed5hy3sfde644tygjdj4ia:
+    resolution: {integrity: sha512-wMv1/scv0m/rXx21wD2IsBbJFba8wGF3ErJIr6IKRfRj49S85Lszbxb4DCo8iILpluTjk2GAAu9CoZt4G3ppgQ==}
     engines: {node: '>=8.0.0'}
     peerDependencies:
       rollup: ^2.14.0
       tslib: '*'
       typescript: '>=3.7.0'
     peerDependenciesMeta:
+      tslib:
+        optional: true
       typescript:
         optional: true
     dependencies:
