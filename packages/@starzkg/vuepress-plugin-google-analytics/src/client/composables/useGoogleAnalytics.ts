@@ -1,3 +1,5 @@
+import type { GoogleAnalyticsPluginOptions } from '../../shared/index.js'
+
 declare const dataLayer: any[]
 declare const gtag: (...args: any[]) => void
 
@@ -20,7 +22,9 @@ declare global {
  *
  * @see https://support.google.com/analytics/answer/9216061
  */
-export const useGoogleAnalytics = (id: string): void => {
+export const useGoogleAnalytics = (
+  options: GoogleAnalyticsPluginOptions
+): void => {
   // avoid duplicated import
   if (window.dataLayer && window.gtag) {
     return
@@ -29,7 +33,7 @@ export const useGoogleAnalytics = (id: string): void => {
   // insert gtag `<script>` tag
   const gtagScript = document.createElement('script')
   gtagScript.id = 'google-analytics'
-  gtagScript.src = `https://www.googletagmanager.com/gtag/js?id=${id}`
+  gtagScript.src = `https://www.googletagmanager.com/gtag/js?id=${options.id}`
   gtagScript.async = true
   document.head.appendChild(gtagScript)
 
@@ -42,5 +46,9 @@ export const useGoogleAnalytics = (id: string): void => {
   }
 
   gtag('js', new Date())
-  gtag('config', id)
+  if (options.debug) {
+    gtag('config', options.id, { debug_mode: true })
+  } else {
+    gtag('config', options.id)
+  }
 }
