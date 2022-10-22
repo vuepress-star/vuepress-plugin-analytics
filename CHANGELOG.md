@@ -1,3 +1,16 @@
+## [1.1.3](https://github.com/vuepress-star/vuepress-plugin-analytics/compare/v1.1.2...v1.1.3) (2022-10-22)
+
+
+### Bug Fixes
+
+* **deps:** update dependency sass-loader to v13.1.0 ([#22](https://github.com/vuepress-star/vuepress-plugin-analytics/issues/22)) ([1c8d9f4](https://github.com/vuepress-star/vuepress-plugin-analytics/commit/1c8d9f40f2cc4823f2ed01ef94f8107524a199b8))
+* **deps:** update dependency vue to v3.2.41 ([#31](https://github.com/vuepress-star/vuepress-plugin-analytics/issues/31)) ([7e6509b](https://github.com/vuepress-star/vuepress-plugin-analytics/commit/7e6509b8e7a42e80e92c9dd7dbd7ca344d27db4d))
+* fix ([e7b0f2c](https://github.com/vuepress-star/vuepress-plugin-analytics/commit/e7b0f2cae7946685e092df045857ea8f6e2737ce))
+* fix ([2e33715](https://github.com/vuepress-star/vuepress-plugin-analytics/commit/2e337152ae7acaf97ef7072085ded225ec40f4e5))
+* update vuepress ([511d64f](https://github.com/vuepress-star/vuepress-plugin-analytics/commit/511d64f5adeeaeb9165eddc3250e3bae9b501d0a))
+
+
+
 ## [1.1.2](https://github.com/vuepress-star/vuepress-plugin-analytics/compare/v1.1.1...v1.1.2) (2022-09-14)
 
 
