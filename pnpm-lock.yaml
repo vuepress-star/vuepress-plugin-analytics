@@ -75,7 +75,7 @@ importers:
       '@vuepress/bundler-vite': 2.0.0-beta.52
       '@vuepress/bundler-webpack': 2.0.0-beta.52
       '@vuepress/cli': 2.0.0-beta.52
-      '@vuepress/client': 2.0.0-beta.52
+      '@vuepress/client': 2.0.0-beta.53
       '@vuepress/plugin-docsearch': 2.0.0-beta.52
       '@vuepress/plugin-google-analytics': 2.0.0-beta.52
       '@vuepress/plugin-register-components': 2.0.0-beta.52
@@ -90,7 +90,7 @@ importers:
       '@vuepress/bundler-vite': 2.0.0-beta.52
       '@vuepress/bundler-webpack': 2.0.0-beta.52
       '@vuepress/cli': 2.0.0-beta.52
-      '@vuepress/client': 2.0.0-beta.52
+      '@vuepress/client': 2.0.0-beta.53
       '@vuepress/plugin-docsearch': 2.0.0-beta.52
       '@vuepress/plugin-google-analytics': 2.0.0-beta.52
       '@vuepress/plugin-register-components': 2.0.0-beta.52
@@ -100,7 +100,7 @@ importers:
       anywhere: 1.6.0
       sass-loader: 13.1.0
       vue: 3.2.41
-      vuepress: 2.0.0-beta.52_sztk7qwle5jsnhn6dp52rqvniu
+      vuepress: 2.0.0-beta.52_i5ful644hbdpmu6r6rybeglfju
 
   example/.vuepress:
     specifiers:
@@ -117,7 +117,7 @@ importers:
       '@vuepress/bundler-vite': 2.0.0-beta.52
       '@vuepress/bundler-webpack': 2.0.0-beta.52
       '@vuepress/cli': 2.0.0-beta.52
-      '@vuepress/client': 2.0.0-beta.52
+      '@vuepress/client': 2.0.0-beta.53
       '@vuepress/plugin-docsearch': 2.0.0-beta.52
       '@vuepress/plugin-google-analytics': 2.0.0-beta.52
       '@vuepress/plugin-register-components': 2.0.0-beta.52
@@ -142,7 +142,7 @@ importers:
       '@vuepress/bundler-vite': 2.0.0-beta.52
       '@vuepress/bundler-webpack': 2.0.0-beta.52
       '@vuepress/cli': 2.0.0-beta.52
-      '@vuepress/client': 2.0.0-beta.52
+      '@vuepress/client': 2.0.0-beta.53
       '@vuepress/plugin-docsearch': 2.0.0-beta.52
       '@vuepress/plugin-google-analytics': 2.0.0-beta.52
       '@vuepress/plugin-register-components': 2.0.0-beta.52
@@ -152,7 +152,7 @@ importers:
       anywhere: 1.6.0
       sass-loader: 13.1.0
       vue: 3.2.41
-      vuepress: 2.0.0-beta.52_sztk7qwle5jsnhn6dp52rqvniu
+      vuepress: 2.0.0-beta.52_i5ful644hbdpmu6r6rybeglfju
 
   packages/@starzkg/vuepress-plugin-analytics:
     specifiers:
@@ -166,7 +166,7 @@ importers:
       '@starzkg/vuepress-plugin-pirsch-analytics': workspace:*
       '@starzkg/vuepress-plugin-plausible-analytics': workspace:*
       '@starzkg/vuepress-plugin-simple-analytics': workspace:*
-      '@vuepress/client': 2.0.0-beta.52
+      '@vuepress/client': 2.0.0-beta.53
       '@vuepress/core': 2.0.0-beta.52
       '@vuepress/utils': 2.0.0-beta.52
     dependencies:
@@ -180,109 +180,109 @@ importers:
       '@starzkg/vuepress-plugin-pirsch-analytics': link:../vuepress-plugin-pirsch-analytics
       '@starzkg/vuepress-plugin-plausible-analytics': link:../vuepress-plugin-plausible-analytics
       '@starzkg/vuepress-plugin-simple-analytics': link:../vuepress-plugin-simple-analytics
-      '@vuepress/client': 2.0.0-beta.52
+      '@vuepress/client': 2.0.0-beta.53
       '@vuepress/core': 2.0.0-beta.52
       '@vuepress/utils': 2.0.0-beta.52
 
   packages/@starzkg/vuepress-plugin-baidu-analytics:
     specifiers:
-      '@vuepress/client': 2.0.0-beta.52
+      '@vuepress/client': 2.0.0-beta.53
       '@vuepress/core': 2.0.0-beta.52
       '@vuepress/utils': 2.0.0-beta.52
     dependencies:
-      '@vuepress/client': 2.0.0-beta.52
+      '@vuepress/client': 2.0.0-beta.53
       '@vuepress/core': 2.0.0-beta.52
       '@vuepress/utils': 2.0.0-beta.52
 
   packages/@starzkg/vuepress-plugin-clarity-analytics:
     specifiers:
-      '@vuepress/client': 2.0.0-beta.52
+      '@vuepress/client': 2.0.0-beta.53
       '@vuepress/core': 2.0.0-beta.52
       '@vuepress/utils': 2.0.0-beta.52
     dependencies:
-      '@vuepress/client': 2.0.0-beta.52
+      '@vuepress/client': 2.0.0-beta.53
       '@vuepress/core': 2.0.0-beta.52
       '@vuepress/utils': 2.0.0-beta.52
 
   packages/@starzkg/vuepress-plugin-cnzz-analytics:
     specifiers:
-      '@vuepress/client': 2.0.0-beta.52
+      '@vuepress/client': 2.0.0-beta.53
       '@vuepress/core': 2.0.0-beta.52
       '@vuepress/utils': 2.0.0-beta.52
     dependencies:
-      '@vuepress/client': 2.0.0-beta.52
+      '@vuepress/client': 2.0.0-beta.53
       '@vuepress/core': 2.0.0-beta.52
       '@vuepress/utils': 2.0.0-beta.52
 
   packages/@starzkg/vuepress-plugin-fathom-analytics:
     specifiers:
-      '@vuepress/client': 2.0.0-beta.52
+      '@vuepress/client': 2.0.0-beta.53
       '@vuepress/core': 2.0.0-beta.52
       '@vuepress/utils': 2.0.0-beta.52
       fathom-client: ^3.5.0
     dependencies:
-      '@vuepress/client': 2.0.0-beta.52
+      '@vuepress/client': 2.0.0-beta.53
       '@vuepress/core': 2.0.0-beta.52
       '@vuepress/utils': 2.0.0-beta.52
       fathom-client: 3.5.0
 
   packages/@starzkg/vuepress-plugin-google-analytics:
     specifiers:
-      '@vuepress/client': 2.0.0-beta.52
+      '@vuepress/client': 2.0.0-beta.53
       '@vuepress/core': 2.0.0-beta.52
       '@vuepress/utils': 2.0.0-beta.52
     dependencies:
-      '@vuepress/client': 2.0.0-beta.52
+      '@vuepress/client': 2.0.0-beta.53
       '@vuepress/core': 2.0.0-beta.52
       '@vuepress/utils': 2.0.0-beta.52
 
   packages/@starzkg/vuepress-plugin-micro-analytics:
     specifiers:
-      '@vuepress/client': 2.0.0-beta.52
+      '@vuepress/client': 2.0.0-beta.53
       '@vuepress/core': 2.0.0-beta.52
       '@vuepress/utils': 2.0.0-beta.52
     dependencies:
-      '@vuepress/client': 2.0.0-beta.52
+      '@vuepress/client': 2.0.0-beta.53
       '@vuepress/core': 2.0.0-beta.52
       '@vuepress/utils': 2.0.0-beta.52
 
   packages/@starzkg/vuepress-plugin-panelbear-analytics:
     specifiers:
-      '@vuepress/client': 2.0.0-beta.52
+      '@vuepress/client': 2.0.0-beta.53
       '@vuepress/core': 2.0.0-beta.52
       '@vuepress/utils': 2.0.0-beta.52
     dependencies:
-      '@vuepress/client': 2.0.0-beta.52
+      '@vuepress/client': 2.0.0-beta.53
       '@vuepress/core': 2.0.0-beta.52
       '@vuepress/utils': 2.0.0-beta.52
 
   packages/@starzkg/vuepress-plugin-pirsch-analytics:
     specifiers:
-      '@vuepress/client': 2.0.0-beta.52
+      '@vuepress/client': 2.0.0-beta.53
       '@vuepress/core': 2.0.0-beta.52
       '@vuepress/utils': 2.0.0-beta.52
     dependencies:
-      '@vuepress/client': 2.0.0-beta.52
+      '@vuepress/client': 2.0.0-beta.53
       '@vuepress/core': 2.0.0-beta.52
       '@vuepress/utils': 2.0.0-beta.52
 
   packages/@starzkg/vuepress-plugin-plausible-analytics:
     specifiers:
-      '@vuepress/client': 2.0.0-beta.52
+      '@vuepress/client': 2.0.0-beta.53
       '@vuepress/core': 2.0.0-beta.52
       '@vuepress/utils': 2.0.0-beta.52
     dependencies:
-      '@vuepress/client': 2.0.0-beta.52
+      '@vuepress/client': 2.0.0-beta.53
       '@vuepress/core': 2.0.0-beta.52
       '@vuepress/utils': 2.0.0-beta.52
 
   packages/@starzkg/vuepress-plugin-simple-analytics:
     specifiers:
-      '@vuepress/client': 2.0.0-beta.52
+      '@vuepress/client': 2.0.0-beta.53
       '@vuepress/core': 2.0.0-beta.52
       '@vuepress/utils': 2.0.0-beta.52
     dependencies:
-      '@vuepress/client': 2.0.0-beta.52
+      '@vuepress/client': 2.0.0-beta.53
       '@vuepress/core': 2.0.0-beta.52
       '@vuepress/utils': 2.0.0-beta.52
 
@@ -2690,7 +2690,16 @@ packages:
       '@vue/devtools-api': 6.4.5
       '@vuepress/shared': 2.0.0-beta.52
       vue: 3.2.41
-      vue-router: 4.1.5_vue@3.2.41
+      vue-router: 4.1.6_vue@3.2.41
+    dev: false
+
+  /@vuepress/client/2.0.0-beta.53:
+    resolution: {integrity: sha512-TDKxlrUvwfWu3QAY4SHeu9mVqBkEoKvuoy0WsKy7x9omEy8+HJG1O9y664bP9SotD52skcKL1iW38nQJR2+AkQ==}
+    dependencies:
+      '@vue/devtools-api': 6.4.5
+      '@vuepress/shared': 2.0.0-beta.53
+      vue: 3.2.41
+      vue-router: 4.1.6_vue@3.2.41
     dev: false
 
   /@vuepress/core/2.0.0-beta.52:
@@ -2736,7 +2745,7 @@ packages:
       '@vuepress/utils': 2.0.0-beta.52
       ts-debounce: 4.0.0
       vue: 3.2.41
-      vue-router: 4.1.5_vue@3.2.41
+      vue-router: 4.1.6_vue@3.2.41
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -2840,7 +2849,7 @@ packages:
       '@vuepress/core': 2.0.0-beta.52
       '@vuepress/utils': 2.0.0-beta.52
       vue: 3.2.41
-      vue-router: 4.1.5_vue@3.2.41
+      vue-router: 4.1.6_vue@3.2.41
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -2898,6 +2907,13 @@ packages:
 
   /@vuepress/shared/2.0.0-beta.52:
     resolution: {integrity: sha512-cXWdYFAVud5Y6imNPS38GupVWBfEiheDfnbiv7DZZjJYZHC+f/LhsKyVJrMev7HqLvTQGpNY+xLE//K5tr77yA==}
+    dependencies:
+      '@mdit-vue/types': 0.11.0
+      '@vue/shared': 3.2.41
+    dev: false
+
+  /@vuepress/shared/2.0.0-beta.53:
+    resolution: {integrity: sha512-B0qWorGxC3ruSHdZcJW24XtEDEU3L3uPr0xzTeKVfHjOM4b9hN83YzBtW4n/WPnmk1RXVE9266Ulh9ZL5okGOw==}
     dependencies:
       '@mdit-vue/types': 0.11.0
       '@vue/shared': 3.2.41
@@ -9492,6 +9508,15 @@ packages:
       vue: 3.2.41
     dev: false
 
+  /vue-router/4.1.6_vue@3.2.41:
+    resolution: {integrity: sha512-DYWYwsG6xNPmLq/FmZn8Ip+qrhFEzA14EI12MsMgVxvHFDYvlr4NXpVF5hrRH1wVcDP8fGi5F4rxuJSl8/r+EQ==}
+    peerDependencies:
+      vue: ^3.2.0
+    dependencies:
+      '@vue/devtools-api': 6.4.5
+      vue: 3.2.41
+    dev: false
+
   /vue/3.2.41:
     resolution: {integrity: sha512-uuuvnrDXEeZ9VUPljgHkqB5IaVO8SxhPpqF2eWOukVrBnRBx2THPSGQBnVRt0GrIG1gvCmFXMGbd7FqcT1ixNQ==}
     dependencies:
@@ -9502,7 +9527,7 @@ packages:
       '@vue/shared': 3.2.41
     dev: false
 
-  /vuepress-vite/2.0.0-beta.52_sztk7qwle5jsnhn6dp52rqvniu:
+  /vuepress-vite/2.0.0-beta.52_i5ful644hbdpmu6r6rybeglfju:
     resolution: {integrity: sha512-pTloy/BHMEh80ojJwH8l73+5zy6PtAVgxW0p/59xbCsxXmHLbOGS7J4QebbLzKd8FG3+HyhH4004LTibBVM2gg==}
     hasBin: true
     peerDependencies:
@@ -9511,7 +9536,7 @@ packages:
     dependencies:
       '@vuepress/bundler-vite': 2.0.0-beta.52
       '@vuepress/cli': 2.0.0-beta.52
-      '@vuepress/client': 2.0.0-beta.52
+      '@vuepress/client': 2.0.0-beta.53
       '@vuepress/core': 2.0.0-beta.52
       '@vuepress/theme-default': 2.0.0-beta.52_sass-loader@13.1.0
       vue: 3.2.41
@@ -9526,11 +9551,11 @@ packages:
       - ts-node
     dev: false
 
-  /vuepress/2.0.0-beta.52_sztk7qwle5jsnhn6dp52rqvniu:
+  /vuepress/2.0.0-beta.52_i5ful644hbdpmu6r6rybeglfju:
     resolution: {integrity: sha512-lKS2GVbedQFnNzWpAFPUYdSjujYjFGIAE31mySYgAX+gp9bzoDJDK+MhG/1y81pjugfHWvg2ZeA9/JqcSDVfiA==}
     hasBin: true
     dependencies:
-      vuepress-vite: 2.0.0-beta.52_sztk7qwle5jsnhn6dp52rqvniu
+      vuepress-vite: 2.0.0-beta.52_i5ful644hbdpmu6r6rybeglfju
     transitivePeerDependencies:
       - '@vue/composition-api'
       - '@vuepress/client'
