@@ -24,7 +24,7 @@
     "@starzkg/vuepress-plugin-pirsch-analytics": "workspace:*",
     "@starzkg/vuepress-plugin-plausible-analytics": "workspace:*",
     "@starzkg/vuepress-plugin-simple-analytics": "workspace:*",
-    "@vuepress/bundler-vite": "2.0.0-beta.52",
+    "@vuepress/bundler-vite": "2.0.0-beta.53",
     "@vuepress/bundler-webpack": "2.0.0-beta.52",
     "@vuepress/cli": "2.0.0-beta.52",
     "@vuepress/client": "2.0.0-beta.52",
