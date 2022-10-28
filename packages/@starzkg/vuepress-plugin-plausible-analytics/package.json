@@ -41,9 +41,9 @@
     "clean": "rimraf lib *.tsbuildinfo"
   },
   "dependencies": {
-    "@vuepress/client": "2.0.0-beta.52",
-    "@vuepress/core": "2.0.0-beta.52",
-    "@vuepress/utils": "2.0.0-beta.52"
+    "@vuepress/client": "2.0.0-beta.53",
+    "@vuepress/core": "2.0.0-beta.53",
+    "@vuepress/utils": "2.0.0-beta.53"
   },
   "publishConfig": {
     "access": "public"

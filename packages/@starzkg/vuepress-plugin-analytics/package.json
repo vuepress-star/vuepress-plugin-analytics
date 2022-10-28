@@ -53,9 +53,9 @@
     "@starzkg/vuepress-plugin-pirsch-analytics": "workspace:*",
     "@starzkg/vuepress-plugin-plausible-analytics": "workspace:*",
     "@starzkg/vuepress-plugin-simple-analytics": "workspace:*",
-    "@vuepress/client": "2.0.0-beta.52",
-    "@vuepress/core": "2.0.0-beta.52",
-    "@vuepress/utils": "2.0.0-beta.52"
+    "@vuepress/client": "2.0.0-beta.53",
+    "@vuepress/core": "2.0.0-beta.53",
+    "@vuepress/utils": "2.0.0-beta.53"
   },
   "publishConfig": {
     "access": "public"
