@@ -42,8 +42,8 @@
   "prettier": "prettier-config-vuepress",
   "devDependencies": {
     "@babel/core": "*",
-    "@babel/plugin-transform-modules-commonjs": "7.19.6",
-    "@babel/preset-env": "7.19.4",
+    "@babel/plugin-transform-modules-commonjs": "7.25.7",
+    "@babel/preset-env": "7.25.8",
     "@commitlint/cli": "17.1.2",
     "@commitlint/config-conventional": "17.1.0",
     "@rollup/plugin-commonjs": "23.0.2",
