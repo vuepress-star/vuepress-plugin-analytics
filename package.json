@@ -55,7 +55,7 @@
     "@vitest/coverage-istanbul": "0.24.3",
     "bumpp": "8.2.1",
     "conventional-changelog-cli": "2.2.2",
-    "cpx2": "4.2.0",
+    "cpx2": "4.2.3",
     "eslint": "8.26.0",
     "eslint-config-vuepress": "4.0.3",
     "eslint-config-vuepress-typescript": "4.0.3",
